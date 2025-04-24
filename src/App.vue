@@ -12,12 +12,9 @@ const count = 'Saya komponen baru'
 
 <template>
 
-<p>Hai</p>
+<h1>Logo</h1>
 
-<nav>
-    <RouterLink to="/">Go to Home</RouterLink>
-    <RouterLink to="/html">Go to HTML</RouterLink>
-  </nav>
+<p>Ini adalah Halaman Utama</p>
   <main>
     <RouterView />
   </main>

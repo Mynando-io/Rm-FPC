@@ -19,9 +19,6 @@ const count = 'Saya komponen HTML'
 <nav>
     <RouterLink to="/">Go to Home</RouterLink>
   </nav>
-  <main>
-    <RouterView />
-  </main>
 
 
 </template>

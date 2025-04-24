@@ -15,6 +15,12 @@ const count = 'Saya komponen README'
 
 <p>Selamat datang di README Page</p>
 
+
+
+<nav>
+    <RouterLink to="/html">Go to HTML</RouterLink>
+  </nav>
+
 </template>
 
 
