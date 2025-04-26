@@ -1,6 +1,6 @@
 <script setup>
 
-const count = 'Saya komponen HTML'
+const count = 'Saya Kuis HTML'
 
 </script>
 
@@ -15,7 +15,6 @@ const count = 'Saya komponen HTML'
 
 <nav>
     <RouterLink to="/html">Go to Home</RouterLink>
-    <RouterLink to="/html-kuis-01">Go to Kuis 1</RouterLink>
   </nav>
 
 
