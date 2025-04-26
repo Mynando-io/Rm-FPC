@@ -14,7 +14,7 @@ const count = 'Saya Kuis HTML'
 
 
 <nav>
-    <RouterLink to="/html">Go to Home</RouterLink>
+    <RouterLink to="/html">Go too Home</RouterLink>
   </nav>
 
 
