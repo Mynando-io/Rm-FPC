@@ -16,6 +16,7 @@ const count = 'Saya komponen baru'
 
 <p>Ini adalah Halaman Utama</p>
 <p> Contoh Ini adalah Paragraf</p>
+<p> Tugas Kelompok 2</p>
   <main>
     <RouterView />
   </main>
