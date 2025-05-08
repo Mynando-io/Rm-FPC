@@ -22,7 +22,7 @@ Ikuti tahapan dibawah ini secara ber-urutan!
 ![image](https://github.com/user-attachments/assets/2bc981ab-a052-45c8-b867-9ee02dcabfa8)
 13. hingga bagian kanan menyerupai gambar diatas!
 
-## Tahap persiapan github
+## Tahap persiapan github dan project
 1. buat tab baru
 1. ketik github pada mesin pencari
 2. pilih sign in atau sign up jika belum punya github
@@ -69,3 +69,19 @@ Ikuti tahapan dibawah ini secara ber-urutan!
 ![image](https://github.com/user-attachments/assets/53e386b0-6be9-48dd-94f7-3518c0d55574)
 35.pada link warna biru, tahan tombol "ctrl" dan click link "localhost" warna biru tersebut
 36. selamat, sekarang project telah berjalan diatas cloud server anda
+
+
+## Tahap Untuk kolaborasi code
+1. Buka terminal baru, sama seperti pada tahap ke 5 diatas ( pada bagian "Tahap persiapan github dan project" )
+1. pada terminal ketikk `cd Rm-FPC`
+2. dan terminal anda menyerupai dibawah ini
+![image](https://github.com/user-attachments/assets/efd76c92-36a7-46b9-95fd-cfe126afa16e)
+3. setelah itu ketik `git pull` ( Pastikan melakukan ini setiap kali anda masuk kedalam project )
+
+
+## Tahap jika sudah melakukan coding didalm project
+1. pada terminal ketik `git add .`
+2. selanjutnya `git commit -am 'diantara tanda petik ini bebas'`
+3. selanjutnya `git push`
+![image](https://github.com/user-attachments/assets/4daf3f1e-4e11-4e0e-9c23-7d3c0d169baa)
+
