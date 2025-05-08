@@ -66,3 +66,6 @@ Ikuti tahapan dibawah ini secara ber-urutan!
 32. pada terminal ketik `cd Rm-FPC`
 33. selanjutnya ketik juga ini pada terminal `npm install vue-router@4`
 34. setelah itu ketik `npm run dev`
+![image](https://github.com/user-attachments/assets/53e386b0-6be9-48dd-94f7-3518c0d55574)
+35.pada link warna biru, tahan tombol "ctrl" dan click link "localhost" warna biru tersebut
+36. selamat, sekarang project telah berjalan diatas cloud server anda
