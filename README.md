@@ -53,3 +53,16 @@ Ikuti tahapan dibawah ini secara ber-urutan!
 ![image](https://github.com/user-attachments/assets/b6f42e8a-3a31-4876-be1c-03e21a93d5fe)
 22. selanjutnya copy/buka link ini (https://github.com/playmakermz/Rm-FPC)
 23. click pada button hijau tua "<> Code"
+![image](https://github.com/user-attachments/assets/7295041b-a6f3-47eb-b623-df216669c1ff)
+24. Pilih opsi SSH
+25. copy code dibawahnya yaitu `git@github.com:playmakermz/Rm-FPC.git`
+26. kembali pada "Firebase Studio"
+27. pada bagian terminal ketik `git clone git@github.com:playmakermz/Rm-FPC.git`
+28. Jika ada pertanyaan muncul pada terminal, ketik `yes`
+29. tunggu hingga selesai
+![image](https://github.com/user-attachments/assets/2aaf938c-c739-487a-bb16-139b93810549)
+
+31. pastikan pada bagian kiri ada Folder bernama `Rm-FPC`
+32. pada terminal ketik `cd Rm-FPC`
+33. selanjutnya ketik juga ini pada terminal `npm install vue-router@4`
+34. setelah itu ketik `npm run dev`
