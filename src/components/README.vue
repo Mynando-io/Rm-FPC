@@ -23,6 +23,8 @@ latihanHTML01
     <RouterLink to="/">Go to Home</RouterLink>
     <RouterLink to="/latihanHTML01">Go to Latihan HTML 1</RouterLink>
     <RouterLink to="/latihanHTML02">Go to Latihan HTML 2</RouterLink>
+    <RouterLink to="/HTML-Mapel">Go to Mapel HTML</RouterLink>
+    
   </nav>
 
 
