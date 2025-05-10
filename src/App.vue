@@ -1,7 +1,7 @@
 <script setup>
 import './style.css'
 import './main.js'
-import README from './components/HTML.vue'
+import README from './components/README.vue'
 const count = 'Saya komponen baru'
 
 </script>

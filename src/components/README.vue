@@ -1,7 +1,6 @@
-
 <script setup>
 
-const count = 'Saya komponen README'
+const count = 'Saya komponen HTML'
 
 </script>
 
@@ -13,15 +12,22 @@ const count = 'Saya komponen README'
 
 <h1>{{ count }}</h1>
 
-<p>Selamat datang di README Page</p>
+<p>Selamat datang di HTML Page</p>
+
+latihanHTML01
+
 
 
 
 <nav>
-    <RouterLink to="/html">Go to HTML</RouterLink>
+    <RouterLink to="/">Go to Home</RouterLink>
+    <RouterLink to="/latihanHTML01">Go to Latihan HTML 1</RouterLink>
+    <RouterLink to="/latihanHTML02">Go to Latihan HTML 2</RouterLink>
   </nav>
 
+
 </template>
+
 
 
 
