@@ -17,3 +17,4 @@ File dan folder yang **Tidak boleh disentuh** adalah:
 - .idx
 - router.js (Hubungi penanngung jawab setiap kali anda sudah upload tugas)
 
+Note Catatan 
