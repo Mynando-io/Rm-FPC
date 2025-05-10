@@ -1,5 +1,5 @@
 <script setup>
-import { ref, computed, h  } from 'vue'
+import { ref } from 'vue'
 
 const kuisTr = ref(false) // adalah state note True | Tr(True) | Penempatan: Jawaban Atas(True)
 const kuisFl = ref(false) // adalah state note false | Fl(False) | Penempatan: Jawaban bawah(False)
@@ -17,9 +17,6 @@ function SkuisFl(){ // Ini untuk buka catatan kuis False
 }
 
 
-// Mengatur Jawaban yang ditampilkan
-const isGenap = computed(() => kuisTr.value);
-
 // Membuat component kecil untuk HTML
 
 
@@ -36,7 +33,7 @@ const JawB = ref(`
     <h3>Contoh HTML</h3>
     <p>Ini HTML dari script setup!</p>
   </div>
-`);
+`);// JawaB(Jawaban B)
 </script>
 
 
