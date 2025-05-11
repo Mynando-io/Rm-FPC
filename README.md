@@ -81,8 +81,14 @@ Ikuti tahapan dibawah ini secara ber-urutan!
 1. pada terminal ketikk `cd Rm-FPC`
 2. dan terminal anda menyerupai dibawah ini
 ![image](https://github.com/user-attachments/assets/efd76c92-36a7-46b9-95fd-cfe126afa16e)
-3. setelah itu ketik `git pull` ( Pastikan melakukan ini setiap kali anda masuk kedalam project )
-4. dilanjutkan dengan `npm run dev`
+4. **Wajib lakukan ini** setiap kali temen-temen mau mengerjakan project.
+5. Check github anda, dan cari repository "Fork" yang kalian buat (Tahap 23)
+6. Jika ada informasi "This branch is ... commits behind" maka
+7. click tombol "Sync Fork"
+8. Lalu pilih tombol hijau tua "Update Branch" seperti dibawah ini
+![image](https://github.com/user-attachments/assets/23034daa-4c64-4909-b9ef-fa220de55b52)
+9. setelah itu ketik `git pull` pada terminal ( Pastikan melakukan ini setiap kali anda masuk kedalam project )
+10. dilanjutkan dengan `npm run dev`
 
 
 ## Tahap jika sudah melakukan coding didalm project
