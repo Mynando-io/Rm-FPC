@@ -1,6 +1,5 @@
 <script setup>
 
-const count = 'Saya komponen HTML'
 
 </script>
 
@@ -10,11 +9,8 @@ const count = 'Saya komponen HTML'
 
 <template>
 
-<h1>{{ count }}</h1>
+<h1>Selamat datang pada halaman HOME</h1>
 
-<p>Selamat datang di HTML Page</p>
-
-latihanHTML01
 
 
 
