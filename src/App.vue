@@ -15,15 +15,16 @@ const count = 'Saya komponen baru'
 
   <div class="Home-title">
     <h1>Logo</h1>
-
+<hr/>
 <p>Ini adalah Halaman Utama</p>
 <p> Contoh Ini adalah Paragraf</p>
 <p> Tugas Kelompok 2</p>
-  </div>
+  </div> <!--============== Item01 ====================-->
 
   <div class="Home-container">
-
 <nav class="left-content-item">
+  <h3>Contents</h3>
+  <hr/>
   <RouterLink to="/">Go to Home</RouterLink>
   <RouterLink to="/latihanHTML01">Go to Latihan HTML 1</RouterLink>
   <RouterLink to="/latihanHTML02">Go to Latihan HTML 2</RouterLink>
@@ -34,8 +35,13 @@ const count = 'Saya komponen baru'
 <main class="right-content">
   <RouterView />
 </main>
-</div>
+</div><!--============== Item02 ====================-->
 
+
+<div class="contact-us">
+  <hr/>
+<p>This page was last edited on 29 December 2023, at 18:14.</p>
+</div><!--============== Item03 ====================-->
 </div>
 
 <!-- ========================= Template End ================== -->
@@ -60,21 +66,26 @@ const count = 'Saya komponen baru'
 
 .Home-title{
   background-color: white;
+  padding: 1%;
 }
 
 .Home-container{
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-  border: 1px solid red;
   background-color: white;
+}
+
+.contact-us{
+  background-color: white;
+  padding: 1%;
 }
 
 .left-content-item{
 flex-wrap: wrap;
 flex-direction: column;
-border: 1px solid red;
-padding: 0 7% 0 0;
+padding: 0 7% 0 1%;
+max-height:300px;
 }
 
 .right-content{

@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+nav{
+    display: flex;
+    padding: 20px 0;
+    justify-content: space-between;
+}
 
 body{
     background-color: #f8f9fa;
