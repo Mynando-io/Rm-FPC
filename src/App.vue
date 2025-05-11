@@ -60,7 +60,6 @@ const count = 'Saya komponen baru'
   justify-content: center;
   max-width: 100%;
   flex-direction: column;
-  background-color: #d3d8dd;
   padding:0 10%;
 }
 
