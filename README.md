@@ -1,5 +1,7 @@
 # FPC (Free Programming Course)
 
+>Note
+
 Adalah Project yang menjelaskan tentang bahasa pemrograman, dan lingkup dunia website.
 
 Ikuti tahapan dibawah ini secara ber-urutan!
