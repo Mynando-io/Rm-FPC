@@ -2,7 +2,11 @@
 import './style.css'
 import './main.js'
 import README from './components/README.vue'
+
+
 const count = 'Saya komponen baru'
+
+
 
 </script>
 
@@ -26,6 +30,7 @@ const count = 'Saya komponen baru'
   <hr/>
   <RouterLink to="/">Home</RouterLink>
   <RouterLink to="/HTML-Mapel">HTML Course</RouterLink>
+  <RouterLink to="/html-kuis-02">Testing</RouterLink>
   <RouterLink to="/latihanHTML01">Go to Latihan HTML 1</RouterLink>
   <RouterLink to="/latihanHTML02">Go to Latihan HTML 2</RouterLink>
 </nav>
@@ -40,6 +45,10 @@ const count = 'Saya komponen baru'
 <div class="contact-us">
   <hr/>
 <p>This page was last edited on 29 December 2023, at 18:14.</p>
+<BButton>Button</BButton>
+<BButton variant="danger">Button</BButton>
+<BButton variant="success">Button</BButton>
+<BButton variant="outline-primary">Button</BButton>
 </div><!--============== Item03 ====================-->
 </div>
 
@@ -54,12 +63,14 @@ const count = 'Saya komponen baru'
 /* Pakai Saja style.css */
 
 
+
 .Homepage{
   display: flex;
   justify-content: center;
   max-width: 100%;
   flex-direction: column;
   padding:0 10%;
+  background-color: #d3d8ddba;
 }
 
 .Home-title{

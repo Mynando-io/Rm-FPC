@@ -1,20 +1,5 @@
 <script setup>
 // ======================================== Script area start =======================================================
-import { ref, computed } from 'vue'
-
-const kuisTr = ref(false) // adalah state note True
-const kuisFl = ref(false) // adalah state note false
-
-// Menimpa nilai awal menjadi nilai baru
-function SkuisTr(){ // Ini untuk buka catatan kuis True
-  kuisTr.value = !kuisTr.value
-}
-
-// Menimpa nilai awal menjadi nilai baru
-function SkuisFl(){ // Ini untuk buka catatan kuis False
-  kuisFl.value = !kuisFl.value
-}
-
 
 // ======================================== Script area End =======================================================
 </script>
@@ -25,28 +10,21 @@ function SkuisFl(){ // Ini untuk buka catatan kuis False
 
 <template>
 <!-- 0000000000000000000000000000000000000000000000000000000 Template Area start 0000000000000000000000000000000000000000-->
+<button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop" aria-controls="staticBackdrop">
+  Toggle static offcanvas
+</button>
 
-
-<h1>Exercise</h1>
-
-<p>Soal: </p>
-<p>True or False. Empty elements must have a close tag.</p>
-
-
-
-<lu>
-  <li><button @click="SkuisTr">True</button></li>
-  <li><button @click="SkuisFl">False</button></li>
-</lu>
-
-{{ kuisTr ? 'Ini adalah catatan True' : '' }}
-<br>
-{{ kuisFl ? 'Ini adalah catatan False' : '' }}
-
-<!-- biarkan code dibawah ini -->
-<nav>
-    <RouterLink to="/">Go to Home</RouterLink>
-</nav>
+<div class="offcanvas offcanvas-start" data-bs-backdrop="static" tabindex="-1" id="staticBackdrop" aria-labelledby="staticBackdropLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="staticBackdropLabel">Offcanvas</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <div>
+      I will not close if you click outside of me.
+    </div>
+  </div>
+</div>
 <!-- 000000000000000000000000000000000000000000000000000000 Template area end  000000000000000000000000000000000000000000 -->
 </template>
 
@@ -59,6 +37,60 @@ function SkuisFl(){ // Ini untuk buka catatan kuis False
 
 /* ============================================== Style area start ======================================= */
 
+.menu-container {
+            position: relative;
+            display: inline-block;
+            margin: 20px;
+        }
 
+        .menu-button {
+            padding: 10px 20px;
+            background-color: #2196F3;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        .menu-list {
+            position: absolute;
+            top: 100%;
+            left: 0;
+            list-style: none;
+            padding: 0;
+            margin: 5px 0;
+            background-color: white;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            border-radius: 4px;
+            min-width: 150px;
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.3s ease;
+        }
+
+        .menu-list.active {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        .menu-list li {
+            padding: 10px 15px;
+            border-bottom: 1px solid #eee;
+            transition: background-color 0.2s;
+        }
+
+        .menu-list li:last-child {
+            border-bottom: none;
+        }
+
+        .menu-list li:hover {
+            background-color: #f5f5f5;
+        }
+
+        .menu-list a {
+            text-decoration: none;
+            color: #333;
+        }
 /* ============================================== Style area end ======================================= */
 </style>
