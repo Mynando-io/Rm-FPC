@@ -76,7 +76,7 @@ Ikuti tahapan dibawah ini secara ber-urutan!
 38. Setelah selesai coding, bisa langsung ke **Tahap jika sudah melakukan coding didalm project**
 
 
-## Tahap Untuk kolaborasi code
+## Setiap kali awal buka project Lakukan ini!
 1. Buka terminal baru, sama seperti pada tahap ke 5 diatas ( pada bagian "Tahap persiapan github dan project" )
 1. pada terminal ketikk `cd Rm-FPC`
 2. dan terminal anda menyerupai dibawah ini
@@ -91,7 +91,7 @@ Ikuti tahapan dibawah ini secara ber-urutan!
 10. dilanjutkan dengan `npm run dev`
 
 
-## Tahap jika sudah melakukan coding didalm project
+## Tahap selanjutnya jika sudah menyelesaikan code
 1. pada terminal ketik `git add .`
 2. selanjutnya `git commit -am 'diantara tanda petik ini bebas'`
 3. selanjutnya `git push`

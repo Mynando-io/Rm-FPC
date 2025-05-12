@@ -13,13 +13,12 @@ const count = 'Saya komponen baru'
   
 <div class="Homepage">
 
-  <div class="Home-title">
-    <h1>Logo</h1>
-<hr/>
-<p>Ini adalah Halaman Utama</p>
-<p> Contoh Ini adalah Paragraf</p>
-<p> Tugas Kelompok 2</p>
-  </div> <!--============== Item01 ====================-->
+  
+    <RouterLink to="/" class="Home-title">
+<img src="./assets/FPC-ori.svg" alt="Logo title" height="auto" width="7%">
+<h3>FPC(Free Programming Course)</h3>
+    </RouterLink>
+  <!--============== Item01 ====================-->
 
   <div class="Home-container">
 <nav class="left-content-item">
@@ -65,7 +64,15 @@ const count = 'Saya komponen baru'
 
 .Home-title{
   background-color: white;
-  padding: 1%;
+  display: flex;
+  align-items:center;
+  font-size: 12px;
+}
+
+.Home-title h3{
+margin-left:-1.5%;
+text-decoration: none !important;
+color: black;
 }
 
 .Home-container{
@@ -73,6 +80,8 @@ const count = 'Saya komponen baru'
   flex-direction: row;
   justify-content: flex-start;
   background-color: white;
+  min-height:1000px;
+  padding-top:2%;
 }
 
 .contact-us{
