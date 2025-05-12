@@ -97,3 +97,6 @@ Ikuti tahapan dibawah ini secara ber-urutan!
 3. selanjutnya `git push`
 ![image](https://github.com/user-attachments/assets/4daf3f1e-4e11-4e0e-9c23-7d3c0d169baa)
 4. buka github kalian
+5. click "Contribute"
+6. Isi kolom title dan deskrip dengan bebas(sesukanya)
+7. Kabari Penanggung jawanb jika sudah 
