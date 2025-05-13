@@ -1,6 +1,6 @@
 # Ini adalah catatan mengenai penempatan Folder dan contentnyaq
 
-List Folder yang boleh dikerjakan:
+List Folder yang boleh dikerjakan (semua folder ada dibawah folder "src"):
 - "mapel" - Adalah folder untuk menyimpan halaman mata pelajaran
 - "quiz" - adalah bagian dimana kita akan menyimpan halaman quiz
 - "latihan" - adalah folder untuk menyimpan data halaman untuk latihan 
