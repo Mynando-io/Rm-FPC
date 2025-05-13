@@ -54,36 +54,52 @@ Ikuti tahapan dibawah ini secara ber-urutan!
 20. Pada form "Key" tempel code tadi (langkah ke 11)
 ![image](https://github.com/user-attachments/assets/b6f42e8a-3a31-4876-be1c-03e21a93d5fe)
 22. selanjutnya copy/buka link ini (https://github.com/playmakermz/Rm-FPC)
-23. click pada button hijau tua "<> Code"
+23. click button "Fork" pada bagian kanan atas ( diatas tulisan "About" cetak tebal )
+![image](https://github.com/user-attachments/assets/feb4bfd8-197f-4825-8f64-c45327ea630d)
+24. setelah itu click tombol hijau "Create fork" ( Anda tidak perlu melakukan configurasi, cukup click tombol hijau )
+25. tunggu hingga selesai
+26. click pada button hijau tua "<> Code"
 ![image](https://github.com/user-attachments/assets/7295041b-a6f3-47eb-b623-df216669c1ff)
-24. Pilih opsi SSH
-25. copy code dibawahnya yaitu `git@github.com:playmakermz/Rm-FPC.git`
-26. kembali pada "Firebase Studio"
-27. pada bagian terminal ketik `git clone git@github.com:playmakermz/Rm-FPC.git`
-28. Jika ada pertanyaan muncul pada terminal, ketik `yes`
-29. tunggu hingga selesai
+27. Pilih opsi SSH
+28. copy code dibawahnya! contoh `git@github.com:playmakermz/Rm-FPC.git`
+29. kembali pada "Firebase Studio"
+30. pada bagian terminal ketik `git clone` kasih 1 space(sepasi) dan tempel code tadi, lalu enter
+31. Jika ada pertanyaan muncul pada terminal, ketik `yes`
+32. tunggu hingga selesai
 ![image](https://github.com/user-attachments/assets/2aaf938c-c739-487a-bb16-139b93810549)
 
-31. pastikan pada bagian kiri ada Folder bernama `Rm-FPC`
-32. pada terminal ketik `cd Rm-FPC`
-33. selanjutnya ketik juga ini pada terminal `npm install vue-router@4`
-34. setelah itu ketik `npm run dev`
+33. pastikan pada bagian kiri ada Folder bernama `Rm-FPC`
+34. pada terminal ketik `cd Rm-FPC`
+35. selanjutnya ketik juga ini pada terminal `npm install vue-router@4`
+36. Ketik ini juga `npm i bootstrap bootstrap-vue-next` (Tahapan baru, ada untuk membantu anda memakai fitur bootstrap untuk vuejs)
+36. setelah itu ketik `npm run dev`
 ![image](https://github.com/user-attachments/assets/53e386b0-6be9-48dd-94f7-3518c0d55574)
 35.pada link warna biru, tahan tombol "ctrl" dan click link "localhost" warna biru tersebut
-36. selamat, sekarang project telah berjalan diatas cloud server anda
+37. selamat, sekarang project telah berjalan diatas cloud server anda
+38. Setelah selesai coding, bisa langsung ke **Tahap jika sudah melakukan coding didalm project**
 
 
-## Tahap Untuk kolaborasi code
+## Setiap kali awal buka project Lakukan ini!
 1. Buka terminal baru, sama seperti pada tahap ke 5 diatas ( pada bagian "Tahap persiapan github dan project" )
 1. pada terminal ketikk `cd Rm-FPC`
 2. dan terminal anda menyerupai dibawah ini
 ![image](https://github.com/user-attachments/assets/efd76c92-36a7-46b9-95fd-cfe126afa16e)
-3. setelah itu ketik `git pull` ( Pastikan melakukan ini setiap kali anda masuk kedalam project )
+4. **Wajib lakukan ini** setiap kali temen-temen mau mengerjakan project.
+5. Check github anda, dan cari repository "Fork" yang kalian buat (Tahap 23)
+6. Jika ada informasi "This branch is ... commits behind" maka
+7. click tombol "Sync Fork"
+8. Lalu pilih tombol hijau tua "Update Branch" seperti dibawah ini
+![image](https://github.com/user-attachments/assets/23034daa-4c64-4909-b9ef-fa220de55b52)
+9. setelah itu ketik `git pull` pada terminal ( Pastikan melakukan ini setiap kali anda masuk kedalam project )
+10. dilanjutkan dengan `npm run dev`
 
 
-## Tahap jika sudah melakukan coding didalm project
+## Tahap selanjutnya jika sudah menyelesaikan code
 1. pada terminal ketik `git add .`
 2. selanjutnya `git commit -am 'diantara tanda petik ini bebas'`
 3. selanjutnya `git push`
 ![image](https://github.com/user-attachments/assets/4daf3f1e-4e11-4e0e-9c23-7d3c0d169baa)
-
+4. buka github kalian
+5. click "Contribute"
+6. Isi kolom title dan deskrip dengan bebas(sesukanya)
+7. Kabari Penanggung jawanb jika sudah 
