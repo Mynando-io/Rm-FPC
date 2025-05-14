@@ -8,6 +8,7 @@ import kuh01 from './Quiz/KuisHTML.vue' // kuh01 (Kuis HTML 01)
 import kuh02 from './Quiz/Template.vue' // kuh01 (Kuis HTML 01)
 import mphtml1 from './mapel/html1.vue'
 import mpvim from './mapel/vim.vue' // Mata pelajaran vim
+import mpgit from './mapel/git.vue' // Mata pelajaran git
 
 const routes = [
   { path: '/', component: Readme }, // Adalah Halaman utama pada website
@@ -18,6 +19,7 @@ const routes = [
   { path: '/html-kuis-02', component: kuh02 }, ///html-kuis-01
   { path: '/HTML-Mapel', component: mphtml1 },
   { path: '/vim', component: mpvim }, // vim
+  { path: '/git', component: git }, // git
 ];
 
 const router = createRouter({
