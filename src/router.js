@@ -19,7 +19,7 @@ const routes = [
   { path: '/html-kuis-02', component: kuh02 }, ///html-kuis-01
   { path: '/HTML-Mapel', component: mphtml1 },
   { path: '/vim', component: mpvim }, // vim
-  { path: '/git', component: git }, // git
+  { path: '/git', component: mpgit }, // git
 ];
 
 const router = createRouter({
