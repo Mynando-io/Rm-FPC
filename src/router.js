@@ -10,8 +10,15 @@ import mphtml1 from './mapel/html1.vue'
 import mpvim from './mapel/vim.vue' // Mata pelajaran vim
 import mpgit from './mapel/git.vue' // Mata pelajaran git
 
+// =========================== Test ==============
+import testAndri from './Quiz/ContohApp.vue'
+
 const routes = [
+  // =============== Homepage Url ==================
   { path: '/', component: Readme }, // Adalah Halaman utama pada website
+  // =============== Test Url ==================
+  { path: '/testDesign', component: testAndri },
+  // =============== Mapel Url ==================
   { path: '/latihanHTML01', component: lth01 },
   { path: '/latihanHTML02', component: lth02 }, ///html-kuis-01
   { path: '/latihanHTML03', component: lth03 },

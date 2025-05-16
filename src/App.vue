@@ -32,7 +32,7 @@ const count = 'Saya komponen baru'
   <RouterLink to="/HTML-Mapel">HTML Course</RouterLink>
   <RouterLink to="/vim">Vim Course</RouterLink>
   <RouterLink to="/git">Git Course</RouterLink>
-  <RouterLink to="/html-kuis-02">Testing</RouterLink>
+  <RouterLink to="/testDesign">Ka Andri</RouterLink>
   <RouterLink to="/latihanHTML02">Go to Latihan HTML 2</RouterLink>
 </nav>
 
