@@ -29,9 +29,13 @@ const count = 'Saya komponen baru'
   <h3>Contents</h3>
   <hr/>
   <RouterLink to="/">Home</RouterLink>
+  <span class="icon">🏠</span>
   <RouterLink to="/HTML-Mapel">HTML Course</RouterLink>
+  <span class="icon">📄</span>
   <RouterLink to="/vim">Vim Course</RouterLink>
+  <span class="icon">🔄</span>
   <RouterLink to="/git">Git Course</RouterLink>
+  <span class="icon">🔄</span>
   <RouterLink to="/testDesign">Ka Andri</RouterLink>
   <RouterLink to="/latihanHTML02">Go to Latihan HTML 2</RouterLink>
 </nav>
@@ -43,13 +47,14 @@ const count = 'Saya komponen baru'
 </div><!--============== Item02 ====================-->
 
 
-<div class="contact-us">
-  <hr/>
-<p>This page was last edited on 29 December 2023, at 18:14.</p>
-<BButton>Button</BButton>
-<BButton variant="danger">Button</BButton>
-<BButton variant="success">Button</BButton>
-<BButton variant="outline-primary">Button</BButton>
+<div class="footer-links">
+      <a href="#">Privacy Policy</a>
+      <span class="separator">•</span>
+      <a href="#">About FPC</a>
+      <span class="separator">•</span>
+      <a href="#">Disclaimers</a>
+      <span class="separator">•</span>
+      <a href="#">Contact Us</a>
 </div><!--============== Item03 ====================-->
 </div>
 
