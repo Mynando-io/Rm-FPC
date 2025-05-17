@@ -61,14 +61,14 @@ npx expo-cli <span class="hljs-keyword">upgrade</span> // jika mengalami <span c
 
 <span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">HomeScreen</span>(<span class="hljs-params"></span>) </span>{
   <span class="hljs-keyword">return</span> (
-    <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">View</span>&gt;</span>
+    <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">View</span>&gt;</span></span>
 
-<span class="hljs-tag">&lt;<span class="hljs-name">View</span> <span class="hljs-attr">style</span>=<span class="hljs-string">{{<span class="hljs-attr">alignItems:</span> '<span class="hljs-attr">center</span>' }}&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">Text</span> <span class="hljs-attr">style</span>=<span class="hljs-string">{{</span> <span class="hljs-attr">fontSize:</span> <span class="hljs-attr">40</span> }}&gt;</span>Hello React Native<span class="hljs-tag">&lt;/<span class="hljs-name">Text</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">View</span> </span><span class="hljs-attr">style</span>=<span class="hljs-string"> &lt;span class=&quot;hljs-attr&quot;&gt;alignItems:&lt;/span&gt; '&lt;span class=&quot;hljs-attr&quot;&gt;center&lt;/span&gt;'  </span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">Text</span></span> <span class="hljs-attr">style</span>=<span class="hljs-string">&lt;/span&gt; &lt;span class=&quot;hljs-attr&quot;&gt;fontSize:&lt;/span&gt; &lt;span class=&quot;hljs-attr&quot;&gt;40&lt;/span&gt; </span>Hello React Native<span class="hljs-tag">&lt;/<span class="hljs-name">Text</span>&gt;</span>
       <span class="hljs-tag">&lt;/<span class="hljs-name">View</span>&gt;</span>
 
-<span class="hljs-tag">&lt;<span class="hljs-name">View</span> <span class="hljs-attr">style</span>=<span class="hljs-string">{{</span> <span class="hljs-attr">alignItems:</span> '<span class="hljs-attr">center</span>' }}&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">Text</span> <span class="hljs-attr">style</span>=<span class="hljs-string">{{</span> <span class="hljs-attr">fontSize:</span> <span class="hljs-attr">40</span> }}&gt;</span>Hello React Native<span class="hljs-tag">&lt;/<span class="hljs-name">Text</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">View</span></span> <span class="hljs-attr">style</span>=<span class="hljs-string">&lt;/span&gt; &lt;span class=&quot;hljs-attr&quot;&gt;alignItems:&lt;/span&gt; '&lt;span class=&quot;hljs-attr&quot;&gt;center&lt;/span&gt;' </span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">Text</span> <span class="hljs-attr">style</span>=<span class="hljs-string">&lt;/span&gt; &lt;span class=&quot;hljs-attr&quot;&gt;fontSize:&lt;/span&gt; &lt;span class=&quot;hljs-attr&quot;&gt;40&lt;/span&gt; </span>Hello React Native<span class="hljs-tag">&lt;/<span class="hljs-name">Text</span>&gt;</span>
       <span class="hljs-tag">&lt;/<span class="hljs-name">View</span>&gt;</span>
 
 <span class="hljs-tag">&lt;/<span class="hljs-name">View</span>&gt;</span></span>
@@ -104,14 +104,14 @@ npx expo-cli <span class="hljs-keyword">upgrade</span> // jika mengalami <span c
 ... 
 
 return (
-<span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">View</span>&gt;</span>
+<span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">View</span>&gt;</span></span>
 
-<span class="hljs-tag">&lt;<span class="hljs-name">View</span> <span class="hljs-attr">style</span>=<span class="hljs-string">{{</span> <span class="hljs-attr">alignItems:</span> '<span class="hljs-attr">center</span>' }}&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">Text</span> <span class="hljs-attr">style</span>=<span class="hljs-string">{{</span> <span class="hljs-attr">fontSize:</span> <span class="hljs-attr">40</span> }}&gt;</span>Hello React Native<span class="hljs-tag">&lt;/<span class="hljs-name">Text</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">View</span> <span class="hljs-attr">style</span>=<span class="hljs-string">&lt;/span&gt; &lt;span class=&quot;hljs-attr&quot;&gt;alignItems:&lt;/span&gt; '&lt;span class=&quot;hljs-attr&quot;&gt;center&lt;/span&gt;' </span></span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">Text</span> <span class="hljs-attr">style</span>=<span class="hljs-string">&lt;/span&gt; &lt;span class=&quot;hljs-attr&quot;&gt;fontSize:&lt;/span&gt; &lt;span class=&quot;hljs-attr&quot;&gt;40&lt;/span&gt; </span>Hello React Native<span class="hljs-tag">&lt;/<span class="hljs-name">Text</span>&gt;</span></span>
       <span class="hljs-tag">&lt;/<span class="hljs-name">View</span>&gt;</span>
 
-<span class="hljs-tag">&lt;<span class="hljs-name">View</span> <span class="hljs-attr">style</span>=<span class="hljs-string">{{</span> <span class="hljs-attr">alignItems:</span> '<span class="hljs-attr">center</span>' }}&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">Text</span> <span class="hljs-attr">style</span>=<span class="hljs-string">{{</span> <span class="hljs-attr">fontSize:</span> <span class="hljs-attr">40</span> }}&gt;</span>Hello React Native<span class="hljs-tag">&lt;/<span class="hljs-name">Text</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">View</span> <span class="hljs-attr">style</span>=<span class="hljs-string">&lt;/span&gt; &lt;span class=&quot;hljs-attr&quot;&gt;alignItems:&lt;/span&gt; '&lt;span class=&quot;hljs-attr&quot;&gt;center&lt;/span&gt;' </span></span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">Text</span> <span class="hljs-attr">style</span>=<span class="hljs-string">&lt;/span&gt; &lt;span class=&quot;hljs-attr&quot;&gt;fontSize:&lt;/span&gt; &lt;span class=&quot;hljs-attr&quot;&gt;40&lt;/span&gt; </span>Hello React Native<span class="hljs-tag">&lt;/<span class="hljs-name">Text</span>&gt;</span>
       <span class="hljs-tag">&lt;/<span class="hljs-name">View</span>&gt;</span>
 
 <span class="hljs-tag">&lt;/<span class="hljs-name">View</span>&gt;</span></span>
@@ -119,7 +119,7 @@ return (
 </code></pre>
 <p>Mereka berfungsi sebagai container pembungkus. sama seperti kita menggunakan <code>&lt;div&gt;</code></p>
 <h3 id="text">Text</h3>
-<pre><code class="lang-Js"><span class="hljs-tag">&lt;<span class="hljs-name">Text</span> <span class="hljs-attr">style</span>=<span class="hljs-string">{{</span> <span class="hljs-attr">fontSize:</span> <span class="hljs-attr">30</span> }}&gt;</span>
+<pre><code class="lang-Js"><span class="hljs-tag">&lt;<span class="hljs-name">Text</span> <span class="hljs-attr">style</span>=<span class="hljs-string">&lt;/span&gt; &lt;span class=&quot;hljs-attr&quot;&gt;fontSize:&lt;/span&gt; &lt;span class=&quot;hljs-attr&quot;&gt;30&lt;/span&gt; </span></span>
 
 <span class="hljs-tag">&lt;<span class="hljs-name">Text</span>&gt;</span>Ini ukuran akan berubah <span class="hljs-tag">&lt;<span class="hljs-name">Text</span>&gt;</span>
 
@@ -308,8 +308,7 @@ const [name, setName] = useState()
 </ul>
 <h1 id="reference-">Reference:</h1>
 <ul>
-<li><p><a href="https://www.freecodecamp.org/news/responsive-layout-react-native/">https://www.freecodecamp.org/news/responsive-layout-react-native/</a> | App sangat sederhana <Begginer Recommended></p>
-</li>
+<li><p><a href="https://www.freecodecamp.org/news/responsive-layout-react-native/">https://www.freecodecamp.org/news/responsive-layout-react-native/</a> | App sangat sederhana</p></li>
 <li><p><a href="https://shift.infinite.red/start-using-reactotron-in-your-expo-project-today-in-3-easy-steps-a03d11032a7a">React Expo Debugging</a></p>
 </li>
 </ul>

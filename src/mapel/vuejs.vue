@@ -491,10 +491,10 @@ Yaitu dimana kita akan membuat component dan akan dilekatkan kepada component la
 <p>Contoh:
 ```html</p>
 
-<script setup>
+&lt;script setup&gt;
 // Panggil component lain
 import ChildComp from './ChildComp.vue'
-</script>
+&lt;/script&gt;
 
 </li>
 </ul>
@@ -511,22 +511,22 @@ import ChildComp from './ChildComp.vue'
 - Komponen B (Export / pengirim / child component) adalah komponen lain yang akan melengkapi
 
 Code Komponen A (Parent component)</code>html
-<script setup>
+&lt;script setup&gt;
 import { ref } from &#39;vue&#39;
 import ChildComp from &#39;./ChildComp.vue&#39; // panggil komponen B
 
 const greeting = ref(&#39;Hello from parent&#39;) // buat state
-</script>
+&lt;/script &gt;
 
 <template>
   <ChildComp :msg="greeting" /> <!-- Kirim data State ke komponen B -->
 </template>
 <code>code komponen B (child component)</code>html
-<script setup>
+&lt;script setup&gt;
 const props = defineProps({ // Buat metode menerima data
   msg: String // &#39;msg&#39; adalah alamat variabel yang digunakan untuk menerima
 })
-</script>
+&lt;/script&gt;
 
 <template>
   <h2>{{ msg || &#39;No props passed yet&#39; }}</h2> <!-- pasang variabel -->
