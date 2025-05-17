@@ -28,16 +28,38 @@ const count = 'Saya komponen baru'
 <nav class="left-content-item">
   <h3>Contents</h3>
   <hr/>
-  <RouterLink to="/">Home</RouterLink>
-  <span class="icon">🏠</span>
-  <RouterLink to="/HTML-Mapel">HTML Course</RouterLink>
-  <span class="icon">📄</span>
-  <RouterLink to="/vim">Vim Course</RouterLink>
-  <span class="icon">🔄</span>
-  <RouterLink to="/git">Git Course</RouterLink>
-  <span class="icon">🔄</span>
+  <RouterLink to="/" class="LFT-Item"> <span class="icon">🏠</span> Home</RouterLink>
+  
+  <RouterLink to="/HTML-Mapel" class="LFT-Item"> <span class="icon">📄</span> HTML Course</RouterLink>
+  
+  <RouterLink to="/vim" class="LFT-Item"><span class="icon">🔄</span> Vim Course</RouterLink>
+  
+  <RouterLink to="/git" class="LFT-Item"> <span class="icon">🔄</span> Git Course</RouterLink>
+  
+  <RouterLink to="/css" class="LFT-Item"> <span class="icon">🔄</span> CSS Course</RouterLink>
+
+  <RouterLink to="/javascript" class="LFT-Item"> <span class="icon">🔄</span> Javascript Course</RouterLink>
+
+  <RouterLink to="/java" class="LFT-Item"> <span class="icon">🔄</span> Java Course</RouterLink>
+
+  <RouterLink to="/python" class="LFT-Item"> <span class="icon">🔄</span> Python Course</RouterLink>
+
+  <RouterLink to="/r" class="LFT-Item"> <span class="icon">🔄</span> R Course</RouterLink>
+
+  <RouterLink to="/react" class="LFT-Item"> <span class="icon">🔄</span> React Course</RouterLink>
+
+  <RouterLink to="/reactexpo" class="LFT-Item"> <span class="icon">🔄</span> React Expo Course</RouterLink>
+
+  <RouterLink to="/vue" class="LFT-Item"> <span class="icon">🔄</span> Vue Course</RouterLink>
+
+  <RouterLink to="/ruby" class="LFT-Item"> <span class="icon">🔄</span> Ruby Course</RouterLink>
+
+  <RouterLink to="/sql" class="LFT-Item"> <span class="icon">🔄</span> SQL Course</RouterLink>
+
+  <RouterLink to="/typescript" class="LFT-Item"> <span class="icon">🔄</span> Typescript Course</RouterLink>
+
+
   <RouterLink to="/testDesign">Ka Andri</RouterLink>
-  <RouterLink to="/latihanHTML02">Go to Latihan HTML 2</RouterLink>
 </nav>
 
 
@@ -110,9 +132,13 @@ color: black;
 flex-wrap: wrap;
 flex-direction: column;
 padding: 0 7% 0 1%;
-max-height:300px;
+max-height: 80em; 
 }
 
+/* class="LFT-Item" */
+.LFT-Item{
+  padding:0 0 1.5em 0px;
+}
 .right-content{
   flex-grow: 4;
 }
