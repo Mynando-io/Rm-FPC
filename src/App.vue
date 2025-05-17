@@ -101,7 +101,7 @@ color: black;
   padding-top:2%;
 }
 
-.contact-us{
+.footer-links{
   background-color: white;
   padding: 1%;
 }

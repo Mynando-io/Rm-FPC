@@ -63,7 +63,7 @@ npx expo-cli <span class="hljs-keyword">upgrade</span> // jika mengalami <span c
   <span class="hljs-keyword">return</span> (
     <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">View</span>&gt;</span>
 
-<span class="hljs-tag">&lt;<span class="hljs-name">View</span> <span class="hljs-attr">style</span>=<span class="hljs-string">{{</span> <span class="hljs-attr">alignItems:</span> '<span class="hljs-attr">center</span>' }}&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">View</span> <span class="hljs-attr">style</span>=<span class="hljs-string">{{<span class="hljs-attr">alignItems:</span> '<span class="hljs-attr">center</span>' }}&gt;</span>
         <span class="hljs-tag">&lt;<span class="hljs-name">Text</span> <span class="hljs-attr">style</span>=<span class="hljs-string">{{</span> <span class="hljs-attr">fontSize:</span> <span class="hljs-attr">40</span> }}&gt;</span>Hello React Native<span class="hljs-tag">&lt;/<span class="hljs-name">Text</span>&gt;</span>
       <span class="hljs-tag">&lt;/<span class="hljs-name">View</span>&gt;</span>
 

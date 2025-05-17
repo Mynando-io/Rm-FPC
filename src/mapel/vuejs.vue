@@ -327,7 +327,7 @@ Kita tidak perlu lagi membuat function yang harus menerima setiap interaksi dida
   <span class="hljs-comment">&lt;!-- v-model --&gt;</span>
   <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">v-model</span>=<span class="hljs-string">"text"</span> <span class="hljs-attr">placeholder</span>=<span class="hljs-string">"Type here"</span>&gt;</span>
   <span class="hljs-comment">&lt;!-- menampilkan hasil state --&gt;</span>
-  <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span></span><span class="hljs-template-variable">{{ text }</span><span class="xml">}<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span></span><span class="hljs-template-variable">{{ text }}</span><span class="xml">}<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
 <span class="hljs-tag">&lt;/<span class="hljs-name">template</span>&gt;</span></span>
 </code></pre>
 <p>Ref: <a href="https://vuejs.org/tutorial/#step-5">https://vuejs.org/tutorial/#step-5</a></p>
@@ -490,6 +490,7 @@ onMounted(<span class="hljs-function"><span class="hljs-params">()</span> =&gt;<
 Yaitu dimana kita akan membuat component dan akan dilekatkan kepada component lain.</p>
 <p>Contoh:
 ```html</p>
+
 <script setup>
 // Panggil component lain
 import ChildComp from './ChildComp.vue'
@@ -553,7 +554,7 @@ adalah aksi parent (Komponent A) mengirim state ke komponent child (Komponent B)
    <span class="hljs-comment">&lt;!-- ChildComp hanya akan menampilkkan 'template' saja--&gt;</span>
   <span class="hljs-tag">&lt;<span class="hljs-name">ChildComp</span> @<span class="hljs-attr">response</span>=<span class="hljs-string">"(msg) =&gt; childMsg = msg"</span> /&gt;</span>
   <span class="hljs-comment">&lt;!-- 'hello from child' akan ditampikan dibawah sini (state awal di timpa)--&gt;</span>
-  <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span></span><span class="hljs-template-variable">{{ childMsg }</span><span class="xml">}<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span></span><span class="hljs-template-variable">{{ childMsg }}</span><span class="xml">}<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
 <span class="hljs-tag">&lt;/<span class="hljs-name">template</span>&gt;</span></span>
 </code></pre><pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">script</span> <span class="hljs-attr">setup</span>&gt;</span><span class="actionscript">
    <span class="hljs-comment">// ========= Ini adalah komponent child (Komponent B) =======</span>
@@ -588,7 +589,7 @@ emit(<span class="hljs-string">'response'</span>, <span class="hljs-string">'hel
 </span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span>
 
 <span class="hljs-tag">&lt;<span class="hljs-name">template</span>&gt;</span>
-  <span class="hljs-tag">&lt;<span class="hljs-name">ChildComp</span>&gt;</span>Message: </span><span class="hljs-template-variable">{{ msg }</span><span class="xml">}<span class="hljs-tag">&lt;/<span class="hljs-name">ChildComp</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">ChildComp</span>&gt;</span>Message: </span><span class="hljs-template-variable">{{ msg }}</span><span class="xml">}<span class="hljs-tag">&lt;/<span class="hljs-name">ChildComp</span>&gt;</span>
 <span class="hljs-tag">&lt;/<span class="hljs-name">template</span>&gt;</span></span>
 </code></pre>
 <h2 id="router">Router</h2>

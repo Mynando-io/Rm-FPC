@@ -69,7 +69,7 @@
 <li>untuk beberapa attribute HTML, kita harus menggunakan &quot;camelCase&quot; sebagai penulisan. Contoh: <code>onClick</code>, <code>onChange</code></li>
 <li>untuk penamaan attribute class adalah <code>className</code></li>
 <li>untuk single tag, gunakan seperti ini <code>&lt;img src=&quot;#&quot; /&gt;</code> harus memiliki penutup akhir. <code>&lt;br /&gt;</code></li>
-<li>penulisan inline css <code>&lt;p style={{ color: &#39;red&#39;, fontSize: &#39;20px&#39; }}&gt;Teks merah dengan ukuran 20px&lt;/p&gt;</code></li>
+<li>penulisan inline css <code>Teks merah dengan ukuran 20px&lt;/p&gt;</code></li>
 <li>penulisan jika didalam JSX, <code>&lt;button onClick={() =&gt; alert(&quot;Hello, World!&quot;)}&gt;</code> perjelas informasi yang kita berikan itu string. </li>
 <li>perhatikan dalam membuat JSX, harus terdapat container!, jika didalam JSX terdapat banyak eleemnt.</li>
 </ul>
