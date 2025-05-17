@@ -103,3 +103,32 @@ Ikuti tahapan dibawah ini secara ber-urutan!
 5. click "Contribute"
 6. Isi kolom title dan deskrip dengan bebas(sesukanya)
 7. Kabari Penanggung jawanb jika sudah 
+
+
+## Konfigurasi Semua block code 
+
+1. untuk integrasi content didalam block code lakukan ini
+
+2. perisapkkan HTML Tag seperti ini
+```html
+
+<pre>
+<code>
+
+
+
+
+</code>
+</pre>
+
+```
+3. Lakukan escape character ( Hanya untuk bahasa  HTML )
+4. Gunakan ini untuk melakukan Tahap 3: https://emn178.github.io/online-tools/html_encode.html 
+5. Tempel code HTMl, dan Copy hasil escape character pada bagian "Output"
+6. Lalu tempel code "Output" kedalam perispan HTML Tag kita, yaitu diantara  `<code>`
+7. Sedangkan untuk bahasa pemgroraman lain, tidak perlu mengerjakan tahapan 3-5. Cukup tempel code kedalam tag `<code>`
+
+
+
+## Referensi:
+- https://www.codiga.io/blog/display-code-snippets-in-html/ 
