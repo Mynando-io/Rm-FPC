@@ -14,13 +14,50 @@ const count = 'Saya komponen baru'
 <template>
 <!-- ========================= Template start ================== -->
 
+ <!-- ========================= Mobile Menu Start ================== -->
+ <div class="mobile-menu">
+
+
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <div class="mobile-my-navbar">
+      <img src="./assets/FPC-ori.svg" alt="Logo title" height="auto" width="140px">
+    </div>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Features</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Pricing</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+</div>
+<!-- ============================= Mobile Menu End  ================ -->
+
   
 <div class="Homepage">
 
+ 
   
     <RouterLink to="/" class="Home-title">
 <img src="./assets/FPC-ori.svg" alt="Logo title" height="auto" width="200px">
 <h3>FPC(Free Programming Course)</h3>
+
     </RouterLink>
   <!--============== Item01 ====================-->
 
@@ -61,6 +98,7 @@ const count = 'Saya komponen baru'
 
   <RouterLink to="/testDesign">Ka Andri</RouterLink>
 </nav>
+
 
 
 <main class="right-content">
@@ -149,6 +187,10 @@ nav{
     justify-content: space-between;
 }
 
+.mobile-menu{
+  display: none;
+}
+
 @media (max-width: 991.98px) { 
 /* ====================== Buat Aturan untuk smartphone =============== */
 
@@ -159,6 +201,23 @@ nav{
 .left-content-item {
   display: none;
 }
+
+.mobile-menu{
+  display: block;
+}
+
+.Home-title{
+  display: none;
+}
+
+.mobile-my-navbar{
+  display: flex;
+  align-items:center;
+  font-size: 28px;
+  height: 20px;
+  padding: 0;
+}
+
 
  }
 
