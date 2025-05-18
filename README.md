@@ -109,7 +109,13 @@ Ikuti tahapan dibawah ini secara ber-urutan!
 
 1. untuk integrasi content didalam block code lakukan ini
 
-2. perisapkkan HTML Tag seperti ini
+Contoh Content didalam block code:
+![image](https://github.com/user-attachments/assets/2b785232-f35f-472e-b68c-56565c0e4ff5)
+
+Versi Raw(Original)
+![image](https://github.com/user-attachments/assets/cca9662d-abd3-455c-8a13-a6c596352409)
+
+3. perisapkkan HTML Tag seperti ini
 ```html
 
 <pre>
