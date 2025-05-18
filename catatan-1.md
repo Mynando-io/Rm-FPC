@@ -20,23 +20,14 @@ File dan folder yang **Tidak boleh disentuh** adalah:
 Note Catatan 
 
 ```
-// Router js
 
-/* ========================== Hapus ini! =================
-import js1 from './latihan/js-note1.vue'
-import js2 from './latihan/js-note2.vue'
-import js3 from './latihan/js-note3.vue'
-import js4 from './latihan/js-note4.vue'
-import js5 from './latihan/js-note5.vue'
+import EN1 from './latihan/expo-note1.vue'
+import EN2 from './latihan/expo-note2.vue'
+import EN3 from './latihan/expo-note3.vue'
 
-============================ Hapus baris ini ================
-*/
 
-  /* ==================== 
-  { path: '/js1', component: js1},
-  { path: '/js2', component: js2},
-  { path: '/js3', component: js3},
-  { path: '/js4', component: js4},
-  { path: '/js5', component: js5},
-   =============================== */
+
+{ path: '/expo-note1', component: EN1},
+  { path: '/expo-note2', component: EN2},
+  { path: '/expo-note3', component: EN3},
 ```
