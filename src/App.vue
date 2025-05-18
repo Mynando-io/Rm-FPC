@@ -19,7 +19,7 @@ const count = 'Saya komponen baru'
 
   
     <RouterLink to="/" class="Home-title">
-<img src="./assets/FPC-ori.svg" alt="Logo title" height="auto" width="7%">
+<img src="./assets/FPC-ori.svg" alt="Logo title" height="auto" width="200px">
 <h3>FPC(Free Programming Course)</h3>
     </RouterLink>
   <!--============== Item01 ====================-->
@@ -90,8 +90,6 @@ const count = 'Saya komponen baru'
 <style scoped>
 /* Pakai Saja style.css */
 
-
-
 .Homepage{
   display: flex;
   justify-content: center;
@@ -121,6 +119,8 @@ color: black;
   background-color: white;
   min-height:1000px;
   padding-top:2%;
+  padding-right: 2%;
+  padding-left: 2%;
 }
 
 .footer-links{
@@ -148,5 +148,18 @@ nav{
     padding: 20px 0;
     justify-content: space-between;
 }
+
+@media (max-width: 991.98px) { 
+/* ====================== Buat Aturan untuk smartphone =============== */
+
+.Homepage{
+  padding: 0 5%;
+}
+
+.left-content-item {
+  display: none;
+}
+
+ }
 
 </style>
