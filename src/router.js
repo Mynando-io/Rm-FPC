@@ -34,11 +34,11 @@ import mpVim from './mapel/vim.vue' // vim
 
 // ================ Latihan =========================
 
-import js1 from './latihan/js-note1'
-import js2 from './latihan/js-note2'
-import js3 from './latihan/js-note3'
-import js4 from './latihan/js-note4'
-import js5 from './latihan/js-note5'
+import js1 from './latihan/js-note1.vue'
+import js2 from './latihan/js-note2.vue'
+import js3 from './latihan/js-note3.vue'
+import js4 from './latihan/js-note4.vue'
+import js5 from './latihan/js-note5.vue'
 
 // =========================== Test ==============
 import testAndri from './Quiz/ContohApp.vue'
