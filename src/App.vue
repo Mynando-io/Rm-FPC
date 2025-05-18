@@ -179,6 +179,7 @@ max-height: 80em;
 }
 .right-content{
   flex-grow: 4;
+  
 }
 
 nav{
@@ -216,6 +217,10 @@ nav{
   font-size: 28px;
   height: 20px;
   padding: 0;
+}
+
+nav{
+  padding: 5px 0px;
 }
 
 
