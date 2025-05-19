@@ -29,7 +29,7 @@ const count = 'Saya komponen baru'
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <a class="nav-link active" aria-current="page" href="#">FPC Home</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Features</a>
@@ -120,8 +120,6 @@ const count = 'Saya komponen baru'
 
 <!-- ========================= Template End ================== -->
 </template>
-
-
 
 
 
@@ -223,7 +221,30 @@ nav{
   padding: 5px 0px;
 }
 
+.container-fluid{
+  padding: 0 2% 0 0;
+}
+
+
 
  }
+ /* =================== END Buat Aturan untuk smartphone =============== */
+
+ @media (max-width: 500px) { 
+  .right-content{
+  font-size: 12px; /* Ukuran font lebih kecil untuk mobile */
+  line-height: 1.4; /* Spasi garis optimal untuk mobile */
+  overflow-wrap: break-word; /* Memaksa kata panjang untuk dipotong */
+  word-wrap: break-word; /* Untuk kompatibilitas browser lama */
+}
+
+.Homepage{
+  padding: 0 0;
+}
+.home-container{
+  padding: 0 2px;
+}
+
+ }/* =================== END Aturan ================ */
 
 </style>
