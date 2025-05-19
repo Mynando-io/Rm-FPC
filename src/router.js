@@ -42,6 +42,7 @@ import js5 from './latihan/js-note5.vue'
 
 // ==================== Broken FIle =============================
 
+
 import EN1 from './latihan/expo-note1.vue'
 import EN2 from './latihan/expo-note2.vue'
 import EN3 from './latihan/expo-note3.vue'
@@ -88,6 +89,8 @@ const routes = [
 { path: '/expo-note1', component: EN1},
   { path: '/expo-note2', component: EN2},
   { path: '/expo-note3', component: EN3},
+
+  
   
   // ================= Random ==================
   { path: '/latihanHTML01', component: lth01 },

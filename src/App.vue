@@ -29,17 +29,53 @@ const count = 'Saya komponen baru'
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">FPC Home</a>
+          <RouterLink to="/" class="LFT-Item"> <span class="icon">🏠</span> FPC Home</RouterLink>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Features</a>
+          <RouterLink to="/HTML-Mapel" class="LFT-Item"> <span class="icon">📄</span> HTML Course</RouterLink>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Pricing</a>
+          <RouterLink to="/vim" class="LFT-Item"><span class="icon">🔄</span> Vim Course</RouterLink>
         </li>
         <li class="nav-item">
-          <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+          <RouterLink to="/css" class="LFT-Item"> <span class="icon">🔄</span> CSS Course</RouterLink>
         </li>
+        <li class="nav-item">
+          <RouterLink to="/javascript" class="LFT-Item"> <span class="icon">🔄</span> Javascript Course</RouterLink>
+        </li>
+        <li class="nav-item">
+          <RouterLink to="/java" class="LFT-Item"> <span class="icon">🔄</span> Java Course</RouterLink>
+        </li>
+        <li class="nav-item">
+          <RouterLink to="/python" class="LFT-Item"> <span class="icon">🔄</span> Python Course</RouterLink>
+        </li>
+        <li class="nav-item">
+          <RouterLink to="/r" class="LFT-Item"> <span class="icon">🔄</span> R Course</RouterLink>
+        </li>
+        <li class="nav-item">
+          <RouterLink to="/react" class="LFT-Item"> <span class="icon">🔄</span> React Course</RouterLink>
+        </li>
+        <li class="nav-item">
+          <RouterLink to="/reactexpo" class="LFT-Item"> <span class="icon">🔄</span> React Expo Course</RouterLink>
+        </li>
+        <li class="nav-item">
+          <RouterLink to="/vue" class="LFT-Item"> <span class="icon">🔄</span> Vue Course</RouterLink>
+        </li>
+        <li class="nav-item">
+          <RouterLink to="/ruby" class="LFT-Item"> <span class="icon">🔄</span> Ruby Course</RouterLink>
+        </li>
+        <li class="nav-item">
+          <RouterLink to="/typescript" class="LFT-Item"> <span class="icon">🔄</span> Typescript Course</RouterLink>
+        </li>
+
+        <li class="nav-item">
+          <RouterLink to="/git" class="LFT-Item"> <span class="icon">🔄</span> Git Course</RouterLink>
+        </li>
+        <li class="nav-item">
+          <RouterLink to="/sql" class="LFT-Item"> <span class="icon">🔄</span> SQL Course</RouterLink>
+        </li>
+
+
       </ul>
     </div>
   </div>
@@ -243,6 +279,10 @@ nav{
 }
 .home-container{
   padding: 0 2px;
+}
+
+.nav-item{
+  padding: 2% 0 0 0;
 }
 
  }/* =================== END Aturan ================ */
