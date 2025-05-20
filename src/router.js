@@ -39,13 +39,13 @@ import js3 from './latihan/js-note3.vue'
 import js4 from './latihan/js-note4.vue'
 import js5 from './latihan/js-note5.vue'
 
-
-// ==================== Broken FIle =============================
-
-
 import EN1 from './latihan/expo-note1.vue'
 import EN2 from './latihan/expo-note2.vue'
 import EN3 from './latihan/expo-note3.vue'
+
+// ==================== Broken FIle =============================
+
+import react-note1 from './latihan/react-note1.vue'
 
 
 
