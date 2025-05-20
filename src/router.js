@@ -45,7 +45,14 @@ import EN3 from './latihan/expo-note3.vue'
 
 // ==================== Broken FIle =============================
 
-import react-note1 from './latihan/react-note1.vue'
+import reactNote1 from './latihan/react-note1.vue'
+import reactNote2 from './latihan/react-note2.vue'
+import reactNote3 from './latihan/react-note3.vue'
+import reactNote4 from './latihan/react-note4.vue'
+import reactNote5 from './latihan/react-note5.vue'
+import reactNote6 from './latihan/react-note6.vue'
+import reactNote7 from './latihan/react-note7.vue'
+import reactNote8 from './latihan/react-note8.vue'
 
 
 
@@ -82,14 +89,20 @@ const routes = [
   { path: '/js4', component: js4},
   { path: '/js5', component: js5},
 
-
-// ==================== Broken FIle =============================  
-
-
 { path: '/expo-note1', component: EN1},
   { path: '/expo-note2', component: EN2},
   { path: '/expo-note3', component: EN3},
 
+  // ==================== Broken FIle =============================  
+
+  { path: '/react-note1', component: reactNote1},
+  { path: '/react-note2', component: reactNote2},
+  { path: '/react-note3', component: reactNote3},
+  { path: '/react-note4', component: reactNote4},
+  { path: '/react-note5', component: reactNote5},
+  { path: '/react-note6', component: reactNote6},
+  { path: '/react-note7', component: reactNote7},
+  { path: '/react-note8', component: reactNote8},
   
   
   // ================= Random ==================
