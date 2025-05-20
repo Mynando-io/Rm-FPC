@@ -60,9 +60,13 @@
 <span class="hljs-keyword">import</span> { NavigationContainer } <span class="hljs-keyword">from</span> <span class="hljs-string">'@react-navigation/native'</span>;
 <span class="hljs-keyword">import</span> { createNativeStackNavigator } <span class="hljs-keyword">from</span> <span class="hljs-string">'@react-navigation/native-stack'</span>;
 
+
+
+
+
 <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">HomeScreen</span>(<span class="hljs-params"></span>) </span>{
   <span class="hljs-keyword">return</span> (
-    <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">View</span> <span class="hljs-attr">style</span>=<span class="hljs-string">{{</span> <span class="hljs-attr">flex:</span> <span class="hljs-attr">1</span>, <span class="hljs-attr">alignItems:</span> '<span class="hljs-attr">center</span>', <span class="hljs-attr">justifyContent:</span> '<span class="hljs-attr">center</span>' }}&gt;</span>
+    <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">View</span> <span class="hljs-attr">style</span>=<span class="hljs-string">{}</span> <span class="hljs-attr">flex:</span> <span class="hljs-attr">1</span>, <span class="hljs-attr">alignItems:</span> '<span class="hljs-attr">center</span>', <span class="hljs-attr">justifyContent:</span> '<span class="hljs-attr">center</span>' {}&gt;</span>
       <span class="hljs-tag">&lt;<span class="hljs-name">Text</span>&gt;</span>Home Screen<span class="hljs-tag">&lt;/<span class="hljs-name">Text</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">View</span>&gt;</span></span>
   );
@@ -70,7 +74,7 @@
 
 <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">DetailsScreen</span>(<span class="hljs-params"></span>) </span>{
   <span class="hljs-keyword">return</span> (
-    <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">View</span> <span class="hljs-attr">style</span>=<span class="hljs-string">{{</span> <span class="hljs-attr">flex:</span> <span class="hljs-attr">1</span>, <span class="hljs-attr">alignItems:</span> '<span class="hljs-attr">center</span>', <span class="hljs-attr">justifyContent:</span> '<span class="hljs-attr">center</span>' }}&gt;</span>
+    <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">View</span> <span class="hljs-attr">style</span>=<span class="hljs-string">{}</span> <span class="hljs-attr">flex:</span> <span class="hljs-attr">1</span>, <span class="hljs-attr">alignItems:</span> '<span class="hljs-attr">center</span>', <span class="hljs-attr">justifyContent:</span> '<span class="hljs-attr">center</span>' {}&gt;</span>
       <span class="hljs-tag">&lt;<span class="hljs-name">Text</span>&gt;</span>Details Screen<span class="hljs-tag">&lt;/<span class="hljs-name">Text</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">View</span>&gt;</span></span>
   );
@@ -92,6 +96,11 @@
 
 export default App;
 </code></pre>
+
+
+
+
+
 <ul>
 <li>Sekarang kita berhasil membuat dua &quot;routes&quot;</li>
 <li>yaitu: <code>Home</code> dan <code>Details</code> route. </li>
@@ -122,7 +131,7 @@ function App() {
         <span class="hljs-tag">&lt;<span class="hljs-name">Stack.Screen</span>
           <span class="hljs-attr">name</span>=<span class="hljs-string">"Home"</span>
           <span class="hljs-attr">component</span>=<span class="hljs-string">{Home}</span>
-          <span class="hljs-attr">options</span>=<span class="hljs-string">{{</span> <span class="hljs-attr">headerShown:</span> <span class="hljs-attr">false</span> }}
+          <span class="hljs-attr">options</span>=<span class="hljs-string">{}</span> <span class="hljs-attr">headerShown:</span> <span class="hljs-attr">false</span> {}
         /&gt;</span>
         <span class="hljs-tag">&lt;<span class="hljs-name">Stack.Screen</span> <span class="hljs-attr">name</span>=<span class="hljs-string">"Profile"</span> <span class="hljs-attr">component</span>=<span class="hljs-string">{Profile}</span> /&gt;</span>
         <span class="hljs-tag">&lt;<span class="hljs-name">Stack.Screen</span> <span class="hljs-attr">name</span>=<span class="hljs-string">"Settings"</span> <span class="hljs-attr">component</span>=<span class="hljs-string">{Settings}</span> /&gt;</span>
@@ -174,7 +183,7 @@ function App() {
 
 <span class="hljs-keyword">function</span> Profile({navigation}){
   return (
-    &lt;View style={{ flex: <span class="hljs-number">1</span>, alignItems: <span class="hljs-string">'center'</span>, justifyContent: <span class="hljs-string">'center'</span> }}&gt;
+    &lt;View style={} flex: <span class="hljs-number">1</span>, alignItems: <span class="hljs-string">'center'</span>, justifyContent: <span class="hljs-string">'center'</span> {}&gt;
       &lt;Text&gt;Profile Screen&lt;/Text&gt;
       &lt;Button
         onPress={() =&gt; navigation.navigate(<span class="hljs-string">'EditPost'</span>)}
@@ -209,7 +218,7 @@ function App() {
   // kita bisa akses dari component <span class="hljs-string">"Profile"</span> <span class="hljs-string">"navigation"</span>!!
   return (
     &lt;Stack.Navigator&gt;
-      &lt;Stack.Screen name=<span class="hljs-string">'Home'</span> component={Home} options={{ headerShown: false }}/&gt;
+      &lt;Stack.Screen name=<span class="hljs-string">'Home'</span> component={Home} options={} headerShown: false {}/&gt;
       &lt;Stack.Screen name=<span class="hljs-string">'EditPost'</span> component={EmptyScreen} /&gt;
     &lt;/Stack.Navigator&gt;
   )
@@ -230,7 +239,7 @@ export <span class="hljs-keyword">default</span> App
 <li>Terdapat dua screen utama &quot;setting&quot; dan &quot;Home&quot;</li>
 <li>Kita tidak bisa membuat button pada &quot;setting&quot;, untuk akses creen didalam &quot;Home&quot;, dan sebaliknya.</li>
 </ul>
-<pre><code class="lang-Js"><span class="hljs-tag">&lt;<span class="hljs-name">Tab.Navigator</span> <span class="hljs-attr">screenOptions</span>=<span class="hljs-string">{{</span> <span class="hljs-attr">headerShown:</span> <span class="hljs-attr">false</span> }}&gt;</span>
+<pre><code class="lang-Js"><span class="hljs-tag">&lt;<span class="hljs-name">Tab.Navigator</span> <span class="hljs-attr">screenOptions</span>=<span class="hljs-string">{}</span> <span class="hljs-attr">headerShown:</span> <span class="hljs-attr">false</span> {}&gt;</span>
  <span class="hljs-tag">&lt;<span class="hljs-name">Tab.Screen</span> <span class="hljs-attr">name</span>=<span class="hljs-string">"First"</span>&gt;</span>
 
  {() =&gt; (
@@ -266,7 +275,7 @@ export <span class="hljs-keyword">default</span> App
 
 <span class="hljs-keyword">function</span> HomeScreen({ navigation }) {
   return (
-    &lt;View style={{ flex: <span class="hljs-number">1</span>, alignItems: <span class="hljs-string">'center'</span>, justifyContent: <span class="hljs-string">'center'</span> }}&gt;
+    &lt;View style={} flex: <span class="hljs-number">1</span>, alignItems: <span class="hljs-string">'center'</span>, justifyContent: <span class="hljs-string">'center'</span> {}&gt;
       &lt;Text&gt;Home Screen&lt;/Text&gt;
       &lt;Button
         title=<span class="hljs-string">"Go to Details"</span>
@@ -278,7 +287,7 @@ export <span class="hljs-keyword">default</span> App
 
 <span class="hljs-keyword">function</span> DetailsScreen() {
   return (
-    &lt;View style={{ flex: <span class="hljs-number">1</span>, alignItems: <span class="hljs-string">'center'</span>, justifyContent: <span class="hljs-string">'center'</span> }}&gt;
+    &lt;View style={} flex: <span class="hljs-number">1</span>, alignItems: <span class="hljs-string">'center'</span>, justifyContent: <span class="hljs-string">'center'</span> {}&gt;
       &lt;Text&gt;Details Screen&lt;/Text&gt;
     &lt;/View&gt;
   );
@@ -351,7 +360,7 @@ useFocusEffect(
 
 <span class="hljs-keyword">function</span> HomeScreen({ navigation }) {
   return (
-    &lt;View style={{ flex: <span class="hljs-number">1</span>, alignItems: <span class="hljs-string">'center'</span>, justifyContent: <span class="hljs-string">'center'</span> }}&gt;
+    &lt;View style={} flex: <span class="hljs-number">1</span>, alignItems: <span class="hljs-string">'center'</span>, justifyContent: <span class="hljs-string">'center'</span> {}&gt;
       &lt;Text&gt;Home Screen&lt;/Text&gt;
       &lt;Button
         title=<span class="hljs-string">"Go to Details"</span>
@@ -363,7 +372,7 @@ useFocusEffect(
 
 <span class="hljs-keyword">function</span> DetailsScreen({ navigation }) {
   return (
-    &lt;View style={{ flex: <span class="hljs-number">1</span>, alignItems: <span class="hljs-string">'center'</span>, justifyContent: <span class="hljs-string">'center'</span> }}&gt;
+    &lt;View style={} flex: <span class="hljs-number">1</span>, alignItems: <span class="hljs-string">'center'</span>, justifyContent: <span class="hljs-string">'center'</span> {}&gt;
       &lt;Text&gt;Details Screen&lt;/Text&gt;
       &lt;Button
         title=<span class="hljs-string">"Go to Details... again"</span>
@@ -408,7 +417,8 @@ export <span class="hljs-keyword">default</span> App;
 // ============== Send Params ===============
 function HomeScreen(</span><span class="hljs-template-variable">{ navigation }</span><span class="xml">) </span><span class="hljs-template-variable">{
   return (
-    &lt;View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }</span><span class="xml">}&gt;
+    &lt;View style={} flex: 1, alignItems: 'center', justifyContent: 'center' }</span><span class="xml">}&gt;
+
       <span class="hljs-tag">&lt;<span class="hljs-name">Text</span>&gt;</span>Home Screen<span class="hljs-tag">&lt;/<span class="hljs-name">Text</span>&gt;</span>
       <span class="hljs-tag">&lt;<span class="hljs-name">Button</span>
         <span class="hljs-attr">title</span>=<span class="hljs-string">"Go to Details"</span>
@@ -429,7 +439,7 @@ function DetailsScreen(</span><span class="hljs-template-variable">{ route, navi
   /* 2. Get the param */
   const { itemId, otherParam }</span><span class="xml"> = route.params;
   return (
-    <span class="hljs-tag">&lt;<span class="hljs-name">View</span> <span class="hljs-attr">style</span>=</span></span><span class="hljs-template-variable">{{ flex: 1, alignItems: 'center', justifyContent: 'center' }</span><span class="xml"><span class="hljs-tag">}&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">View</span> <span class="hljs-attr">style</span>=</span></span><span class="hljs-template-variable">{ flex: 1, alignItems: 'center', justifyContent: 'center' }</span><span class="xml"><span class="hljs-tag">}&gt;</span>
       <span class="hljs-tag">&lt;<span class="hljs-name">Text</span>&gt;</span>Details Screen<span class="hljs-tag">&lt;/<span class="hljs-name">Text</span>&gt;</span>
       <span class="hljs-tag">&lt;<span class="hljs-name">Text</span>&gt;</span>itemId: </span><span class="hljs-template-variable">{JSON.stringify(itemId)}</span><span class="xml"><span class="hljs-tag">&lt;/<span class="hljs-name">Text</span>&gt;</span>
       <span class="hljs-tag">&lt;<span class="hljs-name">Text</span>&gt;</span>otherParam: </span><span class="hljs-template-variable">{JSON.stringify(otherParam)}</span><span class="xml"><span class="hljs-tag">&lt;/<span class="hljs-name">Text</span>&gt;</span>
@@ -473,7 +483,7 @@ function DetailsScreen(</span><span class="hljs-template-variable">{ route, navi
 <pre><code class="lang-Js"><span class="hljs-tag">&lt;<span class="hljs-name">Stack.Screen</span>
   <span class="hljs-attr">name</span>=<span class="hljs-string">"Details"</span>
   <span class="hljs-attr">component</span>=<span class="hljs-string">{DetailsScreen}</span>
-  <span class="hljs-attr">initialParams</span>=<span class="hljs-string">{{</span> <span class="hljs-attr">itemId:</span> <span class="hljs-attr">42</span> }}
+  <span class="hljs-attr">initialParams</span>=<span class="hljs-string">{}</span> <span class="hljs-attr">itemId:</span> <span class="hljs-attr">42</span> {}
 /&gt;</span>
 </code></pre>
 <hr>
