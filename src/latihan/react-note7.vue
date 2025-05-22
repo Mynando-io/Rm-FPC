@@ -33,7 +33,7 @@
 <pre><code><span class="hljs-comment">//App.js </span>
 <span class="hljs-keyword">let</span> [<span class="hljs-built_in">count</span>, setCount] = useState(<span class="hljs-number">0</span>)
 </code></pre><p>selanjutnya </p>
-<pre><code> <span class="hljs-tag">&lt;<span class="hljs-name">TodoContext.Provider</span> <span class="hljs-attr">value</span>=<span class="hljs-string">{{</span> <span class="hljs-attr">count</span>, <span class="hljs-attr">setCount</span> }}&gt;</span>
+<pre><code> <span class="hljs-tag">&lt;<span class="hljs-name">TodoContext.Provider</span> <span class="hljs-attr">value</span>=<span class="hljs-string">\{\{</span> <span class="hljs-attr">count</span>, <span class="hljs-attr">setCount</span> \}\}&gt;</span>
 <span class="hljs-tag">&lt;<span class="hljs-name">Item00</span> /&gt;</span>
 <span class="hljs-tag">&lt;/<span class="hljs-name">TodoContext.Provider</span>&gt;</span>
 </code></pre><p>break :</p>
