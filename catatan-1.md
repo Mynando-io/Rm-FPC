@@ -17,17 +17,15 @@ File dan folder yang **Tidak boleh disentuh** adalah:
 - .idx
 - router.js (Hubungi penanngung jawab setiap kali anda sudah upload tugas)
 
-Note Catatan 
-
-```
-
-import EN1 from './latihan/expo-note1.vue'
-import EN2 from './latihan/expo-note2.vue'
-import EN3 from './latihan/expo-note3.vue'
 
 
+Detail pengerjaan setiap anggota:
 
-{ path: '/expo-note1', component: EN1},
-  { path: '/expo-note2', component: EN2},
-  { path: '/expo-note3', component: EN3},
-```
+Nama | Tugas
+--- | ---
+Bagas | Integrasi materi, quiz, Debugging, Laporan proposal
+Pitri | Integrasi materi, quiz, Video Editing,
+Andri | web design, Logo, poster
+Alif | web design, routing, debugging
+Khoirul | Tidak 
+
