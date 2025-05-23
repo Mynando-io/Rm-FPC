@@ -64,6 +64,7 @@ const routes = [
   { path: '/', component: Readme }, // Adalah Halaman utama pada website
   // =============== Test Url ==================
   { path: '/testDesign', component: testAndri },
+  { path: '/kuis1', component: kuh01},
   // =============== Mapel Url ==================
   { path: '/HTML-Mapel', component: mphtml1 },
   { path: '/vim', component: mpvim }, // vim

@@ -261,6 +261,14 @@ nav{
   padding: 0 2% 0 0;
 }
 
+.navbar-nav {
+  padding: 5px;
+}
+
+.navbar-nav .nav-item{
+  padding-top: 7px;
+}
+
 
 
  }

@@ -21,18 +21,23 @@ function SkuisFl(){ // Ini untuk buka catatan kuis False
 
 
 let JawA = ref(`
+ <div class="alert">
+    <h3>SSH adalah </h3>
+    <p>
+      Secure Shell (SSH), adalah salah satu protokol jaringan dengan nomor port 22. SSH digunakan untuk melakukan komunkiasi dengan server dengan aman, SSH akan melakukan enkripsi kepada data yang terkirim, sehingga data tersebut tidak dapat mudah dibaca.
+      </p>
+  </div>
+`) // JawA(Jawaban A)
+
+const JawB = ref(`
+
 <div class="">
 <h3>HTTPS</h3>
 <p>HTTPS memiliki cara kerja yang hampir sama dengan HTTP, perbedaan adalah disana terdapat enkripsi TLS ( Transport Layer Security )tambah untuk meningkatkan keamanan jaringan. Penambahan kemanan salah satunnya berada di sisi server
   </p>
 </div>
-`) // JawA(Jawaban A)
 
-const JawB = ref(`
-  <div class="alert">
-    <h3>Contoh HTML</h3>
-    <p>Ini HTML dari script setup!</p>
-  </div>
+
 `);// JawaB(Jawaban B)
 </script>
 
