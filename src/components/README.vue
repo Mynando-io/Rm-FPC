@@ -18,19 +18,48 @@ jika kita belajar untuk membuat website. meskipun tidak untuk dijual tapi untuk 
 <h3 id="table-content">Table content</h3>
 <ul>
 <li> <RouterLink to="/HTML-Mapel">HTML Course</RouterLink></li>
-<li><a href="document/css.md">Mulai CSS</a></li>
-<li><a href="document/javascript.md">Mulai Javascript</a></li>
-<li><a href="document/sql.md">Mulai SQL</a></li>
-<li><a href="document/ruby.md">Mulai Ruby</a></li>
-<li><a href="document/vim.md">Mulai Vim</a></li>
-<li><a href="document/python.md">Mulai Python</a></li>
-<li><a href="document/git.md">Mulai Git</a></li>
-<li><a href="document/react.md">Mulai_React</a></li>
-<li><a href="document/expo/expo.md">Mulai React Expo</a></li>
-<li><a href="document/typescript.md">TypeScript</a></li>
-<li><a href="document/R.md">Mulai R</a></li>
-<li><a href="document/javac/java.md">Mulai Bahasa Jawa(Java)</a></li>
-<li><a href="document/vue.md">Mulai Vue Js</a></li>
+<li>
+  <RouterLink to="/vim">VIM Course</RouterLink>
+</li>
+<li>
+  <RouterLink to="/git">Git Course</RouterLink>
+</li>
+<li>
+  <RouterLink to="/css">Css Course</RouterLink>
+</li>
+<li>
+  <RouterLink to="/java">Java Course</RouterLink>
+</li>
+<li>
+  <RouterLink to="/javascript ">javascript Course</RouterLink>
+</li>
+<li>
+  <RouterLink to="/python ">Python Course</RouterLink>
+</li>
+<li>
+  <RouterLink to="/react ">React Course</RouterLink>
+</li>
+<li>
+  <RouterLink to="/r">R Course</RouterLink>
+</li>
+<li>
+  <RouterLink to="/reactexpo">ReactExpo Course</RouterLink>
+</li>
+<li>
+  <RouterLink to="/ruby">Ruby Course</RouterLink>
+</li>
+<li>
+  <RouterLink to="/sql">SQL Course</RouterLink>
+</li>
+<li>
+  <RouterLink to="/typesccript">Typescript Course</RouterLink>
+</li>
+<li>
+  <RouterLink to="/vue ">Vue Course</RouterLink>
+</li>
+<li>
+  <RouterLink to="/vim ">Vim Course</RouterLink>
+</li>
 </ul>
 <h1 id="pengenalan-pembelajaran">Pengenalan Pembelajaran</h1>
 <p>Mempelajari materi dengan bertahap adalah kunci untuk memahami.</p>
