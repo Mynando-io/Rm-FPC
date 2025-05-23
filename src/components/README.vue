@@ -31,13 +31,13 @@ jika kita belajar untuk membuat website. meskipun tidak untuk dijual tapi untuk 
   <RouterLink to="/java">Java Course</RouterLink>
 </li>
 <li>
-  <RouterLink to="/javascript ">javascript Course</RouterLink>
+  <RouterLink to="/javascript">javascript Course</RouterLink>
 </li>
 <li>
-  <RouterLink to="/python ">Python Course</RouterLink>
+  <RouterLink to="/python">Python Course</RouterLink>
 </li>
 <li>
-  <RouterLink to="/react ">React Course</RouterLink>
+  <RouterLink to="/react">React Course</RouterLink>
 </li>
 <li>
   <RouterLink to="/r">R Course</RouterLink>
@@ -55,10 +55,10 @@ jika kita belajar untuk membuat website. meskipun tidak untuk dijual tapi untuk 
   <RouterLink to="/typesccript">Typescript Course</RouterLink>
 </li>
 <li>
-  <RouterLink to="/vue ">Vue Course</RouterLink>
+  <RouterLink to="/vue">Vue Course</RouterLink>
 </li>
 <li>
-  <RouterLink to="/vim ">Vim Course</RouterLink>
+  <RouterLink to="/vim">Vim Course</RouterLink>
 </li>
 </ul>
 <h1 id="pengenalan-pembelajaran">Pengenalan Pembelajaran</h1>
