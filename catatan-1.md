@@ -27,5 +27,5 @@ Bagas | Integrasi materi, quiz, Debugging, Laporan proposal
 Pitri | Integrasi materi, quiz, Video Editing,
 Andri | web design, Logo, poster
 Alif | web design, routing, debugging
-Khoirul | Tidak 
+Khoirul | Tidak dapat bergabung karena suatu kendala
 
