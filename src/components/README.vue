@@ -41,7 +41,7 @@ jika kita belajar untuk membuat website. meskipun tidak untuk dijual tapi untuk 
 </li>
 <li>
   <RouterLink to="/r">R Course</RouterLink>
-</li>/home/user/Rm-FPC/src/Quiz
+</li>
 <li>
   <RouterLink to="/reactexpo">ReactExpo Course</RouterLink>
 </li>
