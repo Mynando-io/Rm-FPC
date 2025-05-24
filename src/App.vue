@@ -132,7 +132,7 @@ const count = 'Saya komponen baru'
   <RouterLink to="/typescript" class="LFT-Item"> <span class="icon">🔄</span> Typescript Course</RouterLink>
 
 
-  <RouterLink to="/testDesign">Ka Andri</RouterLink>
+  <RouterLink to="/quiz">Quiz Course</RouterLink>
 </nav>
 
 

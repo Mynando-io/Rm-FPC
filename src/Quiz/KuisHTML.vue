@@ -1,23 +1,23 @@
 <script setup>
 import { ref } from 'vue'
 
-const kuisTr = ref(false) // adalah state note True | Tr(True) | Penempatan: Jawaban Atas(True)
-const kuisFl = ref(false) // adalah state note false | Fl(False) | Penempatan: Jawaban bawah(False)
+const kuisAA = ref(false) // Pilihan Ganda A | Tr(True) | Penempatan: Jawaban Atas(True)
+const kuisBB = ref(false) // Pilihan ganda B | Penempatan: Jawaban bawah(False)
 const kuisCC = ref(false) // adalah pilihan ganda lanjutan ( Pilihan C )
 const kuisDD = ref(false) // adalah pilihan ganda lanjutan ( Pilihan D )
 
 // Menimpa nilai awal menjadi nilai baru
-function SkuisTr(){ // Ini untuk buka catatan kuis True | Skuis(Soal kuis)
-  kuisTr.value = !kuisTr.value
-  kuisFl.value = false
+function SkuisAA(){ // Ini untuk buka catatan kuis A | Skuis(Soal kuis)
+  kuisAA.value = !kuisAA.value
+  kuisBB.value = false
   kuisCC.value = false
   kuisDD.value = false
 }
 
 // Menimpa nilai awal menjadi nilai baru
-function SkuisFl(){ // Ini untuk buka catatan kuis False
-  kuisFl.value = !kuisFl.value
-  kuisTr.value = false
+function SkuisBB(){ // Ini untuk buka catatan kuis B
+  kuisBB.value = !kuisBB.value
+  kuisAA.value = false
   kuisCC.value = false
   kuisDD.value = false
 }
@@ -25,16 +25,16 @@ function SkuisFl(){ // Ini untuk buka catatan kuis False
 // Pilihan ganda C
 function SkuisCC(){ // Ini untuk buka catatan kuis False
   kuisCC.value = !kuisCC.value
-  kuisTr.value = false
-  kuisFl.value = false
+  kuisAA.value = false
+  kuisBB.value = false
   kuisDD.value = false
 }
 
 // Pilihan ganda D
 function SkuisDD(){ // Ini untuk buka catatan kuis False
   kuisDD.value = !kuisDD.value
-  kuisTr.value = false
-  kuisFl.value = false
+  kuisAA.value = false
+  kuisBB.value = false
   kuisCC.value = false
 }
 
@@ -42,6 +42,9 @@ function SkuisDD(){ // Ini untuk buka catatan kuis False
 // Membuat component kecil untuk HTML
 
 
+// ================================== Boleh Diedit! ====================================
+// JawaA - JawaB tolong ubah element HTML  sesuai dengan kebutuhan.
+// elemen: h3 dan p
 let JawA = ref(`
  <div class="alert">
     <h3>SSH adalah </h3>
@@ -90,28 +93,29 @@ const JawD = ref(`
 
 
 <template>
-<!-- ======================= Awal  dari Template ======================= -->
-
+<!-- ======================= Boleh Di edit ======================= -->
+<!-- Tolong Ubah h1, p dan p sesuai kebutuhan -->
 <h1>Exercise</h1>
 
 <p>Soal: </p>
 <p>Protokol jaringan apa yang digunakan oleh "FPC(Free Programming Course)"?</p>
 
 
-
+<!-- ======================= Boleh Di edit ======================= -->
+<!-- Tolong Ubah AA hingga DD sesuai kebutuhan -->
 <lu>
-  <li><button @click="SkuisTr">SSH</button></li>
-  <li><button @click="SkuisFl">HTTPS</button></li>
+  <li><button @click="SkuisAA">SSH</button></li>
+  <li><button @click="SkuisBB">HTTPS</button></li>
   <li><button @click="SkuisCC">HTTP</button></li>
   <li><button @click="SkuisDD">LAN</button></li>
 </lu>
 
 
-<div v-if="kuisTr">
+<div v-if="kuisAA">
   <div v-html="JawA"></div>
 </div>
 
-<div v-if="kuisFl">
+<div v-if="kuisBB">
   <div v-html="JawB"></div>
 </div>
 

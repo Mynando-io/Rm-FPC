@@ -7,6 +7,7 @@ import lth02 from './note/HTML02.vue'
 import lth03 from './note/HTML03.vue'
 import kuh01 from './Quiz/KuisHTML.vue' // kuh01 (Kuis HTML 01)
 import kuh02 from './Quiz/Template.vue' // kuh01 (Kuis HTML 01)
+import quizTest from './Quiz/Template.vue' // Template design 
 
 
 // ======================= Mapel ===========================
@@ -42,8 +43,6 @@ import js5 from './latihan/js-note5.vue'
 import EN1 from './latihan/expo-note1.vue'
 import EN2 from './latihan/expo-note2.vue'
 import EN3 from './latihan/expo-note3.vue'
-
-// ==================== Broken FIle =============================
 
 import reactNote1 from './latihan/react-note1.vue'
 import reactNote2 from './latihan/react-note2.vue'
@@ -112,6 +111,7 @@ const routes = [
   { path: '/latihanHTML03', component: lth03 },
   { path: '/html-kuis-01', component: kuh01 }, ///html-kuis-01
   { path: '/html-kuis-02', component: kuh02 }, ///html-kuis-01
+  { path: '/quiz', component: quizTest}, // Test Quiz
 ];
 
 const router = createRouter({
