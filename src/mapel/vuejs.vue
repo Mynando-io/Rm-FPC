@@ -11,8 +11,6 @@
 
 <template>
 <!-- 0000000000000000000000000000000000000000000000000000000 Template Area start 0000000000000000000000000000000000000000-->
-<h1 id="sample-markdown">Sample Markdown</h1>
-<p>This is some basic, sample markdown.</p>
 <h1 id="vue-js-guide">Vue Js Guide</h1>
 <p>Memiliki konsep yang tidak beda jauh dari React. </p>
 <h2 id="table-of-content">Table of Content</h2>

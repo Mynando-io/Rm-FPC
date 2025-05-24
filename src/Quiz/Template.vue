@@ -1,4 +1,16 @@
 <script setup>
+/*
+================================ Catatan untuk Anggota Bagian 1 ===============================
+pada file ini ada yang boleh di edit. dan ada yang tidak. 
+
+Aturan disini sederhana. scroll code ini kebawah secara perlahan, dan baca komentar yang saya berikan.
+
+komentar saya pasti berbentuk seperti ini:
+     <!--- ====== Diantara ini adalah komentar ==== --->
+
+Ikuti panduan yang ada dikomentar dan selesai.
+================================ Catatan untuk Anggota Bagian 1 ===============================
+*/
 import { ref } from 'vue'
 
 const kuisAA = ref(false) // Pilihan Ganda A | Tr(True) | Penempatan: Jawaban Atas(True)
@@ -9,16 +21,12 @@ const kuisDD = ref(false) // adalah pilihan ganda lanjutan ( Pilihan D )
 const selectedAnswer = ref(null) // Track selected answer
 const showResult = ref(false) // Show result state
 
-
-
 // Menimpa nilai awal menjadi nilai baru
 function SkuisAA(){ // Ini untuk buka catatan kuis A | Skuis(Soal kuis)
   kuisAA.value = !kuisAA.value
   kuisBB.value = false
   kuisCC.value = false
   kuisDD.value = false
-
-  selectedAnswer.value = 'SSH'
   showResult.value = true
 }
 
@@ -28,8 +36,6 @@ function SkuisBB(){ // Ini untuk buka catatan kuis B
   kuisAA.value = false
   kuisCC.value = false
   kuisDD.value = false
-
-  selectedAnswer.value = 'HTTPS'
   showResult.value = true
 }
 
@@ -39,6 +45,7 @@ function SkuisCC(){ // Ini untuk buka catatan kuis False
   kuisAA.value = false
   kuisBB.value = false
   kuisDD.value = false
+  showResult.value = true
 }
 
 // Pilihan ganda D
@@ -47,9 +54,10 @@ function SkuisDD(){ // Ini untuk buka catatan kuis False
   kuisAA.value = false
   kuisBB.value = false
   kuisCC.value = false
+  showResult.value = true
 }
 
-
+// Button Reset Quiz
 function resetQuiz() {
 
   kuisAA.value = false
@@ -60,57 +68,88 @@ function resetQuiz() {
   showResult.value = false
 }
 
-// Membuat component kecil untuk HTML
+// ======================= Silahkan ubah isi content didalam elemen JawA =====================
 let JawA = ref(`
-<div class="answer-content wrong-answer">
+<div class="answer-content 
+
+wrong-answer  <!--Ubah bagian kiri ini, yaitu "wrong-answer" ini menjadi "correct-answer" jika pilihan ganda A adalah benar -->
+
+">
   <div class="answer-header">
+
+    <!-- ================== Edit Diantara ini ============= -->
     <span class="icon">❌</span>
     <h3>SSH - Jawaban Salah</h3>
   </div>
   <p><strong>SSH (Secure Shell)</strong> adalah protokol jaringan yang digunakan untuk akses remote yang aman ke komputer lain, bukan untuk web browsing. SSH biasanya digunakan untuk administrasi server dan transfer file yang aman.</p>
   <div class="correct-info">
     <p><strong>Jawaban yang benar adalah HTTPS</strong> - protokol yang digunakan untuk website seperti FPC.</p>
-  </div>
+    <!-- ================== Edit Diantara ini ============= -->
+  
+    </div>
 </div>
 `) // JawA(Jawaban A)
 
+// ==================== Silahkan ubah isi content didalam elemen JawB ======================
 const JawB = ref(`
-<div class="answer-content correct-answer">
+<div class="answer-content 
+
+correct-answer  <!--Ubah bagian kiri ini, yaitu "correct-answer" ini menjadi "wrong-answer" jika pilihan ganda B adalah salah -->
+
+">
   <div class="answer-header">
+
     <span class="icon">✅</span>
     <h3>HTTPS - Jawaban Benar!</h3>
   </div>
   <p><strong>HTTPS (HyperText Transfer Protocol Secure)</strong> memiliki cara kerja yang hampir sama dengan HTTP, perbedaan adalah di sana terdapat enkripsi TLS (Transport Layer Security) tambahan untuk meningkatkan keamanan jaringan. Penambahan keamanan salah satunya berada di sisi server.</p>
   <div class="extra-info">
     <p>HTTPS memastikan data yang dikirim antara browser dan server terenkripsi dan aman dari intersepsi.</p>
-  </div>
+  
+    </div>
 </div>
 `);// JawaB(Jawaban B)
 
-
-// Membuat component kecil untuk HTML
+// ============================= Silahkan ubah isi content didalam elemen JawC ====================
 let JawC = ref(`
-<div class="answer-content wrong-answer">
+<div class="answer-content 
+
+wrong-answer  <!--Ubah bagian kiri ini, yaitu "wrong-answer" ini menjadi "correct-answer" jika pilihan ganda C adalah benar -->
+
+">
   <div class="answer-header">
+
+    <!-- ================== Edit Diantara ini ============= -->
     <span class="icon">❌</span>
-    <h3>SSH - Jawaban Salah</h3>
+    <h3>FTP - Jawaban Salah</h3>
   </div>
-  <p><strong>SSH (Secure Shell)</strong> adalah protokol jaringan yang digunakan untuk akses remote yang aman ke komputer lain, bukan untuk web browsing. SSH biasanya digunakan untuk administrasi server dan transfer file yang aman.</p>
+  <p>Protokol ini digunakan untuk transfer file antara komputer, memungkinkan pengguna untuk mengunggah atau men-download file.  </p>
   <div class="correct-info">
     <p><strong>Jawaban yang benar adalah HTTPS</strong> - protokol yang digunakan untuk website seperti FPC.</p>
+    <!-- ================== Edit Diantara ini ============= -->
+
   </div>
 </div>
 `) // JawC(Jawaban C)
 
+// ======================= Silahkan ubah isi content didalam elemen JawD ==============
 const JawD = ref(`
-<div class="answer-content correct-answer">
+<div class="answer-content 
+
+wrong-answer  <!--Ubah bagian kiri ini, yaitu "wrong-answer" ini menjadi "correct-answer" jika pilihan ganda D adalah benar -->
+
+">
   <div class="answer-header">
-    <span class="icon">✅</span>
-    <h3>HTTPS - Jawaban Benar!</h3>
+
+     <!-- ================== Edit Diantara ini ============= -->
+    <span class="icon">❌</span>
+    <h3>HTTP - Jawaban Salah</h3>
   </div>
-  <p><strong>HTTPS (HyperText Transfer Protocol Secure)</strong> memiliki cara kerja yang hampir sama dengan HTTP, perbedaan adalah di sana terdapat enkripsi TLS (Transport Layer Security) tambahan untuk meningkatkan keamanan jaringan. Penambahan keamanan salah satunya berada di sisi server.</p>
-  <div class="extra-info">
-    <p>HTTPS memastikan data yang dikirim antara browser dan server terenkripsi dan aman dari intersepsi.</p>
+  <p>Protokol ini digunakan untuk komunikasi di web, memungkinkan transfer data antara browser web dan server web</p>
+  <div class="correct-info">
+    <p><strong>Jawaban yang benar adalah HTTPS</strong> - protokol yang digunakan untuk website seperti FPC.</p>
+    <!-- ================== Edit Diantara ini ============= -->
+
   </div>
 </div>
 `);// JawaD(Jawaban D)
@@ -128,7 +167,12 @@ const JawD = ref(`
       <span class="badge-icon">🧠</span>
       <span>Programming Quiz</span>
     </div>
-    <h1 class="quiz-title">Network Protocol Challenge</h1>
+    <!-- ============ Silahkan Ubah Content didalam tag h1 ini! ================== -->
+    <h1 class="quiz-title">
+      
+      Network Protocol Challenge <!-- <= Ini Untuk Nama Mapel, sesuaikan dengan kebutuhan! -->
+    
+    </h1> 
     <div class="progress-bar">
       <div class="progress-fill" :style="{ width: showResult ? '100%' : '0%' }"></div>
     </div>
@@ -136,53 +180,96 @@ const JawD = ref(`
 
   <!-- Question Section -->
   <div class="question-card">
-    <div class="question-number">Question 1</div>
-    <h2 class="question-text">
-      Protokol jaringan apa yang digunakan oleh 
-      <span class="highlight">"FPC (Free Programming Course)"</span>?
+    <div class="question-number">Question</div>
+    <h2 class="question-text"> 
+<!-- =================== Diantara ini, silahkan ubah. Digunakan untuk penulisan soal ===================== -->
+      
+Protokol jaringan apa yang digunakan oleh platform
+      <span class="highlight">"FPC (Free Programming Course)"</span>? <!-- Hapus baris ini saja untuk file selain 'Template.vue'-->
+    
+<!-- =================== Diantara ini, silahkan ubah. Digunakan untuk penulisan soal ===================== -->    
     </h2>
   </div>
 
   <!-- Answer Options -->
+  
   <div class="answers-section">
     <div class="answers-grid">
       <button 
-        class="answer-btn" 
-        :class="{ 
-          'selected': selectedAnswer === 'SSH',
-          'wrong': selectedAnswer === 'SSH' && showResult,
-          'disabled': showResult && selectedAnswer !== 'SSH'
-        }"
-        @click="SkuisAA"
-        :disabled="showResult && selectedAnswer !== 'SSH'"
-      >
+        class="answer-btn" @click="SkuisAA">
         <span class="answer-letter">A</span>
-        <span class="answer-text">SSH</span>
-        <span v-if="selectedAnswer === 'SSH' && showResult" class="result-icon wrong">❌</span>
+        <span class="answer-text">
+          <!-- ==================== Tulis Jawaban pilihan ganda diantara ini! ================= -->
+
+SSH
+
+          <!-- =================  Tulis Jawaban pilihan ganda diantara ini!  ==================-->
+        </span>
+        
       </button>
+
+      <!-- ============ Jawaban A ================ -->
 
       <button 
         class="answer-btn" 
-        :class="{ 
-          'selected': selectedAnswer === 'HTTPS',
-          'correct': selectedAnswer === 'HTTPS' && showResult,
-          'disabled': showResult && selectedAnswer !== 'HTTPS'
-        }"
         @click="SkuisBB"
-        :disabled="showResult && selectedAnswer !== 'HTTPS'"
       >
         <span class="answer-letter">B</span>
-        <span class="answer-text">HTTPS</span>
-        <span v-if="selectedAnswer === 'HTTPS' && showResult" class="result-icon correct">✅</span>
+        <span class="answer-text">
+          <!-- ================= Tulis Jawaban pilihan ganda diantara ini! =================== -->
+
+          HTTPS
+
+          <!-- ========================== Tulis Jawaban pilihan ganda diantara ini! ================ -->
+        </span>
+        
       </button>
+
+      <!-- =============== Jawaban B =============-->
+
+      <button 
+        class="answer-btn" 
+        @click="SkuisCC"
+      >
+        <span class="answer-letter">C</span>
+        <span class="answer-text">
+          <!-- =============== Tulis Jawaban pilihan ganda diantara ini! ============== -->
+
+          FTP
+
+          <!-- =============== Tulis Jawaban pilihan ganda diantara ini! ================ -->
+        </span>
+        
+      </button>
+
+      <!-- =============== Jawaban C =============-->
+
+      <button 
+        class="answer-btn" 
+        @click="SkuisDD"
+      >
+        <span class="answer-letter">D</span>
+        <span class="answer-text">
+          <!-- ================ Tulis Jawaban pilihan ganda diantara ini! ============= -->
+
+          HTTP
+
+          <!-- =====================  Tulis Jawaban pilihan ganda diantara ini! ================== -->
+        </span>
+        
+      </button>
+
+      <!-- =============== Jawaban D =============-->
     </div>
   </div>
 
-  <!-- Answer Explanation -->
+  <!-- =============== Baris kebawah ini, tidakk perlu dibaca dan diubah. ================== -->
   <transition name="slide-down">
-    <div v-if="kuisTr || kuisFl" class="explanation-section">
-      <div v-if="kuisTr" v-html="JawA" class="explanation-card"></div>
-      <div v-if="kuisFl" v-html="JawB" class="explanation-card"></div>
+    <div v-if="kuisAA || kuisBB || kuisCC || kuisDD" class="explanation-section">
+      <div v-if="kuisAA" v-html="JawA" class="explanation-card"></div>
+      <div v-if="kuisBB" v-html="JawB" class="explanation-card"></div>
+      <div v-if="kuisCC" v-html="JawC" class="explanation-card"></div>
+      <div v-if="kuisDD" v-html="JawD" class="explanation-card"></div>
       
       <div class="quiz-actions">
         <button @click="resetQuiz" class="reset-btn">
@@ -195,7 +282,7 @@ const JawD = ref(`
 
   <!-- Navigation -->
   <nav class="quiz-navigation">
-    <RouterLink to="/html" class="nav-link">
+    <RouterLink to="/" class="nav-link">
       <span class="nav-icon">🏠</span>
       Go to Home
     </RouterLink>
