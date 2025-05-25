@@ -351,7 +351,11 @@ print(paste(<span class="hljs-string">"Koefisien keragaman untuk Bahasa Inggris:
 <span class="hljs-meta"># [1] "Koefisien keragaman untuk Matematika: 15.3846153846154 %"</span>
 <span class="hljs-meta"># [1] "Koefisien keragaman untuk Bahasa Inggris: 11.4285714285714 %"</span>
 </code></pre><h2 id="latihan-r">Latihan R</h2>
-<p><a href="./latihan-bahasa/latihan-r.md">Latihan bahasa R</a></p>
+<p>
+<RouterLink to="/ltR" class="LFT-Item"> 
+    Latihan R
+    </RouterLink>
+</p>
 <h1 id="referensi-">Referensi:</h1>
 <ul>
 <li><a href="https://www.geeksforgeeks.org/calculate-square-root-of-a-number-in-r-language-sqrt-function/">https://www.geeksforgeeks.org/calculate-square-root-of-a-number-in-r-language-sqrt-function/</a></li>

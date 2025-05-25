@@ -543,7 +543,11 @@ my_var = <span class="hljs-number">10</span>
 <p>Kelebihan utama set adalah menghilangkan duplikasi pada data. Data yang terduplikasi akan ditampilkan satu pada set </p>
 <p>SRC: <a href="https://www.programiz.com/python-programming/list">https://www.programiz.com/python-programming/list</a></p>
 <h1 id="latihan-python">Latihan Python</h1>
-<p><a href="./latihan-bahasa/latihan-py.md">Latihan Python</a></p>
+<p>
+<RouterLink to="/ltPython" class="LFT-Item"> 
+    Latihan Python
+    </RouterLink>
+</p>
 <h2 id="source">Source</h2>
 <ul>
 <li><a href="https://docs.python.org/3/tutorial/">https://docs.python.org/3/tutorial/</a></li>

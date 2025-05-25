@@ -759,7 +759,11 @@ button {
 
 <p>Format ini adalah bentuk rekomendasi dari Author ( official Vue )</p>
 <h2 id="latihan-vue">Latihan Vue</h2>
-<p><a href="./latihan-bahasa/latihan-vue.md">Latihan Halaman Quiz vue</a></p>
+<p>
+  <RouterLink to="/ltVue" class="LFT-Item"> 
+    Latihan Vue
+    </RouterLink>
+</p>
 <hr>
 <h1 id="reference">Reference</h1>
 <hr>

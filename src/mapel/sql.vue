@@ -911,7 +911,10 @@ value mereka sama. </p>
 <p>Contoh data modeling adalah relational databases</p>
 <h2 id="latihan-sql">Latihan SQL</h2>
 <p>Panduan latihan :
-<a href="../document/latihan-bahasa/latihan-sql.md">Latihan SQL</a></p>
+<RouterLink to="/ltSql" class="LFT-Item"> 
+    Latihan SQL
+    </RouterLink>
+</p>
 <h2 id="pranala-menarik">Pranala menarik</h2>
 <ul>
 <li><a href="https://dev.mysql.com/doc/refman/8.0/en/alter-table.html">https://dev.mysql.com/doc/refman/8.0/en/alter-table.html</a></li>

@@ -335,7 +335,11 @@ istilahnnya adalah DRY ( Don&#39;t Repeat yourself )</p>
 fungsi(<span class="hljs-string">'budi'</span>)
 </code></pre><h2 id="latihan-ruby">Latihan Ruby</h2>
 <hr>
-<p><a href="./latihan-bahasa/latihan-ruby.md">Latihan Ruby</a></p>
+<p>
+    <RouterLink to="/ltRuby" class="LFT-Item"> 
+    Latihan Ruby
+    </RouterLink>
+</p>
 <h2 id="task">Task</h2>
 <h3 id="devops-tool-chain">Devops tool chain</h3>
 <ul>
