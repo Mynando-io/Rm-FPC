@@ -503,14 +503,46 @@ Todo List:
 -->
 <h2 id="catatan-tambahan">Catatan tambahan</h2>
 <ul>
-<li><a href="./project-react/single-comp.md">Membuat component sederhana</a></li>
-<li><a href="./react02.md">Membuat banyak content</a></li>
-<li><a href="./react03.md">Membuat element interaktive</a></li>
-<li><a href="./react-install.md">instalasi react</a></li>
-<li><a href="./react-formulir.md">membuat formulir interactive</a></li>
-<li><a href="./project-react/add-update-list.md">Add, Update, List JSX</a></li>
-<li><a href="./project-react/context.md">context</a></li>
-<li><a href="./project-react/useEffect.md">UseEffect</a></li>
+<li>
+  <RouterLink to="/react-note1" class="LFT-Item"> 
+    Membuat comoponent sederhana
+    </RouterLink>
+</li>
+<li>
+  <RouterLink to="/react-note2" class="LFT-Item"> 
+    Membuat banyak content
+    </RouterLink>
+</li>
+<li>
+  <RouterLink to="/react-note3" class="LFT-Item"> 
+   Membuat element interaktive
+    </RouterLink>
+</li>
+<li>
+  <RouterLink to="/react-note4" class="LFT-Item"> 
+    Install react
+    </RouterLink>
+</li>
+<li>
+  <RouterLink to="/react-note5" class="LFT-Item"> 
+    Membuat formulir interacctive
+    </RouterLink>
+</li>
+<li>
+  <RouterLink to="/react-note6" class="LFT-Item"> 
+    Add, Update, List JSX
+    </RouterLink>
+</li>
+<li>
+  <RouterLink to="/react-note7" class="LFT-Item"> 
+    Context
+    </RouterLink>
+</li>
+<li>
+  <RouterLink to="/react-note8" class="LFT-Item"> 
+    UseEffect
+    </RouterLink>
+</li>
 </ul>
 <h2 id="contoh-project">Contoh project</h2>
 <ul>

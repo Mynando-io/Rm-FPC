@@ -302,9 +302,21 @@ const [name, setName] = useState()
 <hr>
 <h1 id="note">Note</h1>
 <ul>
-<li><a href="./note-app-expo.md">Simpel todo App</a></li>
-<li><a href="../project-react/Api-Axios.md">Api-test</a></li>
-<li><a href="../project-react/Expo-Navigator.md">Expo Navigator</a></li>
+<li>
+  <RouterLink to="/expo-note1" class="LFT-Item"> 
+    Simple todo App
+    </RouterLink>
+</li>
+<li>
+  <RouterLink to="/expo-note2" class="LFT-Item"> 
+    Api Test
+    </RouterLink>
+</li>
+<li>
+  <RouterLink to="/expo-note3" class="LFT-Item"> 
+    Expo Navigator
+    </RouterLink>
+</li>
 </ul>
 <h1 id="reference-">Reference:</h1>
 <ul>

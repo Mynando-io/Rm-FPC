@@ -1246,11 +1246,31 @@ points.sort(function(a, b){return b - a});
 <hr>
 <h2 id="additional-note">Additional note</h2>
 <ul>
-<li><a href="../document/javascript-class.md">javascript class</a></li>
-<li><a href="../document/javascript-array.md">javascript-array</a></li>
-<li><a href="../document/javascript-fundamental.md">JavaScript fundamental</a></li>
-<li><a href="../document/project-react/async.md">Javascript synchronous</a></li>
-<li><a href="../document/ajax.md">AJAX</a></li>
+<li>
+    <RouterLink to="/js1" class="LFT-Item"> 
+    Javascript Class    
+    </RouterLink>
+</li>
+<li>
+<RouterLink to="/js2" class="LFT-Item"> 
+    Javascript Array
+    </RouterLink>
+</li>
+<li>
+<RouterLink to="/js3" class="LFT-Item"> 
+    Javascript Fundamental    
+    </RouterLink>
+</li>
+<li>
+<RouterLink to="/js4" class="LFT-Item"> 
+    Javascript synchronous
+    </RouterLink>
+</li>
+<li>
+<RouterLink to="/js5" class="LFT-Item"> 
+    Javascript AJAX
+    </RouterLink>
+</li>
 </ul>
 <h2 id="latihan-javascript">Latihan Javascript</h2>
 <ul>

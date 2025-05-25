@@ -54,6 +54,14 @@ import reactNote7 from './latihan/react-note7.vue'
 import reactNote8 from './latihan/react-note8.vue'
 
 
+import ltHTML1 from './latihan/lt-html1.vue'
+import ltHTML2 from './latihan/lt-html2.vue'
+import ltHTML3 from './latihan/lt-html3.vue'
+import ltHTML4 from './latihan/lt-html4.vue'
+import ltHTML5 from './latihan/lt-html5.vue'
+import ltHTML6 from './latihan/lt-html6.vue'
+import ltHTML7 from './latihan/lt-html7.vue'
+import ltHTML8 from './latihan/lt-html8.vue'
 
 // =========================== Test ==============
 import testAndri from './Quiz/ContohApp.vue'
@@ -93,8 +101,6 @@ const routes = [
   { path: '/expo-note2', component: EN2},
   { path: '/expo-note3', component: EN3},
 
-  // ==================== Broken FIle =============================  
-
   { path: '/react-note1', component: reactNote1},
   { path: '/react-note2', component: reactNote2},
   { path: '/react-note3', component: reactNote3},
@@ -103,7 +109,16 @@ const routes = [
   { path: '/react-note6', component: reactNote6},
   { path: '/react-note7', component: reactNote7},
   { path: '/react-note8', component: reactNote8},
-  
+
+  // ===================== HTMl Latihan 
+  { path: '/latihan-html1', component: ltHTML1},
+  { path: '/latihan-html2', component: ltHTML2},
+  { path: '/latihan-html3', component: ltHTML3},
+  { path: '/latihan-html4', component: ltHTML4},
+  { path: '/latihan-html5', component: ltHTML5},
+  { path: '/latihan-html6', component: ltHTML6},
+  { path: '/latihan-html7', component: ltHTML7},
+  { path: '/latihan-html8', component: ltHTML8},
   
   // ================= Random ==================
   { path: '/latihanHTML01', component: lth01 },
