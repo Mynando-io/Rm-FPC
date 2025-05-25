@@ -63,6 +63,12 @@ import ltHTML6 from './latihan/lt-html6.vue'
 import ltHTML7 from './latihan/lt-html7.vue'
 import ltHTML8 from './latihan/lt-html8.vue'
 
+import ltPy from './latihan/python.vue'
+import ltR from './latihan/r.vue'
+import ltRuby from './latihan/ruby.vue'
+import ltSql from './latihan/sql.vue'
+import ltVue from './latihan/vuejs.vue'
+
 // =========================== Test ==============
 import testAndri from './Quiz/ContohApp.vue'
 
@@ -119,6 +125,12 @@ const routes = [
   { path: '/latihan-html6', component: ltHTML6},
   { path: '/latihan-html7', component: ltHTML7},
   { path: '/latihan-html8', component: ltHTML8},
+
+  { path: '/ltPython', component: ltPy},
+  { path: '/ltR', component: ltR},
+  { path: '/ltRuby', component: ltRuby},
+  { path: '/ltSql', component: ltSql},
+  { path: '/ltVue', component: ltVue},
   
   // ================= Random ==================
   { path: '/latihanHTML01', component: lth01 },
