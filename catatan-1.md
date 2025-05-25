@@ -26,6 +26,6 @@ Nama | Tugas
 Bagas | Integrasi materi, quiz, Debugging, Laporan proposal
 Pitri | Integrasi materi, quiz, Video Editing,
 Andri | web design, Logo, poster
-Alif | web design, routing, debugging
+Alif | web design, routing, debugging, dan mempersiapkan hosting
 Khoirul | Tidak dapat bergabung karena suatu kendala
 
