@@ -16,14 +16,14 @@
 <p>Hasil akhir akan seperti ini:
 <img src="image.png" alt="alt text"></p>
 <h2 id="tahapan-pengerjaan">Tahapan pengerjaan</h2>
-<ol>
-<li>Menyiapkan wadah komponent dasar
+&lt;ol&gt;
+&lt;li&gt;Menyiapkan wadah komponent dasar
 ```html
-<script setup>
-// ======================================== Script area start =======================================================</li>
-</ol>
+&lt;script setup&gt;
+// ======================================== Script area start =======================================================&lt;/li&gt;
+&lt;/ol&gt;
 <p>// ======================================== Script area End =======================================================
-</script></p>
+</p>&lt;/script&gt;
 <template>
 <!-- 0000000000000000000000000000000000000000000000000000000 Template Area start 0000000000000000000000000000000000000000-->
 
@@ -42,11 +42,11 @@
 
 
 
-<style scoped>
+&lt;style scoped&gt;
 
 <p>/<em> ============================================== Style area start ======================================= </em>/</p>
-<p>/<em> ============================================== Style area end ======================================= </em>/
-</style></p>
+&lt;p&gt;/<em> ============================================== Style area end ======================================= </em>/
+&lt;/style&gt;&lt;/p&gt;
 <pre><code>
 <span class="hljs-number">2</span>. 
 Import Package pendukung
