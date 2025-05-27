@@ -14,7 +14,7 @@
 <h1 id="membuat-komponent-kuis-tanya-jawab">Membuat Komponent Kuis tanya jawab</h1>
 <p>Pembuatan komponen kuis akan menggunaakan VUE JS</p>
 <p>Hasil akhir akan seperti ini:
-<img src="image.png" alt="alt text"></p>
+<img src="https://github.com/playmakermz/warkop-website/blob/main/document/latihan-bahasa/image.png" alt="alt text"></p>
 <h2 id="tahapan-pengerjaan">Tahapan pengerjaan</h2>
 &lt;ol&gt;
 &lt;li&gt;Menyiapkan wadah komponent dasar
