@@ -38,20 +38,20 @@ Setiap fitur akan memiliki kekurangan dan kelebihan itu adalah hal yang pasti, d
 <li><p>Buat Fondasi halaman website
 ```
 &lt;!DOCTYPE html&gt;
-<html lang="en">
-<head>
+&lt;html lang="en"&gt;
+&lt;head&gt;
  <meta charset="UTF-8">
  <title></title></p>
- <style>
+ &lt;style&gt;
 
-<p> </style>
-</head></p>
-<body>
+&lt;p&gt; &lt;/style&gt;
+&lt;head&gt;&lt;/p&gt;
+&lt;body&gt;
 
 </li>
 </ol>
-<p></body>
-</html></p>
+<p>&lt;/body&gt;
+&lt;/html&gt;</p>
 <pre><code>
 <span class="hljs-number">2.</span> Buat <span class="hljs-keyword">class</span> main untuk meyimpan dua <span class="hljs-keyword">float</span>
 </code></pre><main class="clearfix">
@@ -61,7 +61,7 @@ Setiap fitur akan memiliki kekurangan dan kelebihan itu adalah hal yang pasti, d
 
 <pre><code>
 <span class="hljs-number">3</span>. Float <span class="hljs-keyword">bagian </span>kiri <span class="hljs-keyword">disimpan </span>ke main
-</code></pre><div class="main-text">
+</code></pre>&lt;div class="main-text"&gt;
 
 <pre><code>        Float Left
 
@@ -73,7 +73,7 @@ Setiap fitur akan memiliki kekurangan dan kelebihan itu adalah hal yang pasti, d
     &lt;/<span class="hljs-keyword">div</span>&gt;
 </code></pre><pre><code>
 <span class="hljs-number">4</span>. Float <span class="hljs-keyword">bagian </span>kanan <span class="hljs-keyword">disimpan </span>ke main, dan pastikan <span class="hljs-keyword">berada </span><span class="hljs-keyword">dibawah </span><span class="hljs-string">"main-text"</span>
-</code></pre> <div class="side-text">
+</code></pre> &lt;div class="side-text"&gt;
 
 <pre><code>        Float Right
 

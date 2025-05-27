@@ -17,7 +17,7 @@ Lakukan latihan di local computer agar dapat memahami materi dengan lebih baik.<
 <ul>
 <li>Buat document HTML dengan kerangka dasar:
 ```
-&lt;!DOCTYPE html&gt;<html lang='en'>
+&lt;!DOCTYPE html&gt;&lt;html lang='en'&gt;
 
 </li>
 </ul>
@@ -27,7 +27,7 @@ Lakukan latihan di local computer agar dapat memahami materi dengan lebih baik.<
 <body>
 </body>
 
-<p></html></p>
+<p>&lt;/html&gt;</p>
 <pre><code>
 - Buat <span class="hljs-keyword">file</span> css <span class="hljs-keyword">di</span> samping <span class="hljs-keyword">file</span> html
 </code></pre><pre><code><span class="hljs-comment">/* File CSS sederhana */</span>
