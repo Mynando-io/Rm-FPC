@@ -74,7 +74,6 @@ let JawA = ref(`
 
 wrong-answer  <!--Ubah bagian kiri ini, yaitu "wrong-answer" ini menjadi "correct-answer" jika pilihan ganda A adalah benar -->
 
-">
   <div class="answer-header">
 
     <!-- ================== Edit Diantara ini ============= -->
@@ -96,7 +95,6 @@ const JawB = ref(`
 
 correct-answer  <!--Ubah bagian kiri ini, yaitu "correct-answer" ini menjadi "wrong-answer" jika pilihan ganda B adalah salah -->
 
-">
   <div class="answer-header">
 
     <span class="icon">✅</span>
@@ -116,12 +114,11 @@ let JawC = ref(`
 
 wrong-answer  <!--Ubah bagian kiri ini, yaitu "wrong-answer" ini menjadi "correct-answer" jika pilihan ganda C adalah benar -->
 
-">
   <div class="answer-header">
 
     <!-- ================== Edit Diantara ini ============= -->
     <span class="icon">❌</span>
-    <h3>FTP - Jawaban Salah</h3>
+    <h3>Jawaban Salah</h3>
   </div>
   <p>git pull dan git fetch tidak digunakan untuk menghapus atau membuat branch.</p>
   <div class="correct-info">
@@ -138,12 +135,11 @@ const JawD = ref(`
 
 wrong-answer  <!--Ubah bagian kiri ini, yaitu "wrong-answer" ini menjadi "correct-answer" jika pilihan ganda D adalah benar -->
 
-">
   <div class="answer-header">
 
      <!-- ================== Edit Diantara ini ============= -->
     <span class="icon">❌</span>
-    <h3>HTTP - Jawaban Salah</h3>
+    <h3>Jawaban Salah</h3>
   </div>
   <p>Protokol ini digunakan untuk komunikasi di web, memungkinkan transfer data antara browser web dan server web</p>
   <div class="correct-info">
