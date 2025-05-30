@@ -30,6 +30,11 @@ import mpVim from './mapel/vim.vue' // vim
 
 // ===================== Quiz ====================
 
+import qzCss from './Quiz/css.vue' // qz = Quiz
+import qzGit from './Quiz/git.vue'
+import qzRuby from './Quiz/ruby.vue'
+import qzVim from './Quiz/vim.vue'
+
 
 // ================ Latihan =========================
 
@@ -131,6 +136,13 @@ const routes = [
   { path: '/ltRuby', component: ltRuby},
   { path: '/ltSql', component: ltSql},
   { path: '/ltVue', component: ltVue},
+
+  // ============================= Quiz =======================
+
+  { path: '/qzVim', component: qzVim},
+  { path: '/qzRuby', component: qzRuby},
+  { path: '/qzGit', component: qzGit},
+  { path: '/qzCss', component: qzCss},
   
   // ================= Random ==================
   { path: '/latihanHTML01', component: lth01 },
