@@ -74,7 +74,6 @@ let JawA = ref(`
 
 wrong-answer  <!--Ubah bagian kiri ini, yaitu "wrong-answer" ini menjadi "correct-answer" jika pilihan ganda A adalah benar -->
 
-">
   <div class="answer-header">
 
     <!-- ================== Edit Diantara ini ============= -->
@@ -96,11 +95,10 @@ const JawB = ref(`
 
 correct-answer  <!--Ubah bagian kiri ini, yaitu "correct-answer" ini menjadi "wrong-answer" jika pilihan ganda B adalah salah -->
 
-">
   <div class="answer-header">
 
     <span class="icon">✅</span>
-    <h3>Jawaban Benar!</h3>
+    <h3>Jawaban Benar</h3>
   </div>
   <p>Expo menyediakan modul dan library siap pakai, seperti navigasi, yang mempermudah pengembangan aplikasi.</p>
   <div class="extra-info">
@@ -116,7 +114,6 @@ let JawC = ref(`
 
 wrong-answer  <!--Ubah bagian kiri ini, yaitu "wrong-answer" ini menjadi "correct-answer" jika pilihan ganda C adalah benar -->
 
-">
   <div class="answer-header">
 
     <!-- ================== Edit Diantara ini ============= -->
@@ -138,7 +135,6 @@ const JawD = ref(`
 
 wrong-answer  <!--Ubah bagian kiri ini, yaitu "wrong-answer" ini menjadi "correct-answer" jika pilihan ganda D adalah benar -->
 
-">
   <div class="answer-header">
 
      <!-- ================== Edit Diantara ini ============= -->
