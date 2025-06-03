@@ -35,6 +35,16 @@ import qzGit from './Quiz/git.vue'
 import qzRuby from './Quiz/ruby.vue'
 import qzVim from './Quiz/vim.vue'
 
+import qzJava from './Quiz/java.vue'
+import qzJavascript from './Quiz/javascript.vue'
+import qzLatex from './Quiz/latex.vue'
+import qzPython from './Quiz/latex.vue'
+import qzR from './Quiz/r.vue'
+import qzReact from './Quiz/react.vue'
+import qzReactExpo from './Quiz/reactexpo.vue'
+import qzSql from './Quiz/sql.vue'
+import qzTyp from './Quiz/typescript.vue'
+import qzVueJs from './Quiz/vuejs.vue'
 
 // ================ Latihan =========================
 
@@ -83,6 +93,10 @@ import ltR from './latihan/r.vue'
 import ltRuby from './latihan/ruby.vue'
 import ltSql from './latihan/sql.vue'
 import ltVue from './latihan/vuejs.vue'
+
+// ========================== QUIZ =====================
+
+
 
 // =========================== Test ==============
 import testAndri from './Quiz/ContohApp.vue'
@@ -166,6 +180,19 @@ const routes = [
   { path: '/qzRuby', component: qzRuby},
   { path: '/qzGit', component: qzGit},
   { path: '/qzCss', component: qzCss},
+
+  { path: '/qzJava', component: qzJava },
+  { path: '/qzJavasccript', component: qzJavascript},
+  { path: '/qzLatex', component: qzLatex},
+  { path: '/qzR', component: qzR},
+  { path: '/qzPython', component: qzPython},
+  { path: '/qzReact', component: qzReact},
+  { path: '/qzReactExpo', component: qzReactExpo},
+  { path: '/qzRuby', component: qzRuby},
+  { path: '/qzSql', component: qzSql},
+  { path: '/qzTyp', component: qzTyp},
+  { path: '/qzVueJs', component: qzVueJs},
+
   
   // ================= Random ==================
   { path: '/latihanHTML01', component: lth01 },

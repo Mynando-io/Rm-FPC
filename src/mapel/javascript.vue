@@ -1271,6 +1271,12 @@ points.sort(function(a, b){return b - a});
     Javascript AJAX
     </RouterLink>
 </li>
+
+<li>
+<RouterLink to="/qzJavasccript" class="LFT-Item"> 
+    Javascript Quiz
+    </RouterLink>
+</li>
 </ul>
 <h2 id="latihan-javascript">Latihan Javascript</h2>
 <ul>

@@ -578,6 +578,12 @@ Todo List:
     </RouterLink>
 </li>
 
+<li>
+<RouterLink to="/qzReact" class="LFT-Item"> 
+    Quiz React
+    </RouterLink>
+</li>
+
 <li><a href="./project-react/pokemonApi.md">PokemonApi</a>
 --&gt;</li>
 </ul>

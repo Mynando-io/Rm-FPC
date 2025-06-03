@@ -121,6 +121,11 @@ document. A brief introduction about the main subject.
 <li><a href="https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes">https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes</a> </li>
 </ul>
 
+<RouterLink to="/qzLatex" class="LFT-Item"> 
+    Quiz Latex
+    </RouterLink>
+</li>
+
 
 
 <!-- biarkan code dibawah ini -->

@@ -317,6 +317,12 @@ const [name, setName] = useState()
     Expo Navigator
     </RouterLink>
 </li>
+
+<li>
+  <RouterLink to="/qzReactExpo" class="LFT-Item"> 
+    Expo Quiz
+    </RouterLink>
+</li>
 </ul>
 <h1 id="reference-">Reference:</h1>
 <ul>

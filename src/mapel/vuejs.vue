@@ -764,6 +764,12 @@ button {
     Latihan Vue
     </RouterLink>
 </p>
+
+<p>
+  <RouterLink to="/qzVueJs" class="LFT-Item"> 
+    Quiz Vue Js
+    </RouterLink>
+</p>
 <hr>
 <h1 id="reference">Reference</h1>
 <hr>

@@ -180,12 +180,17 @@ sudo apt <span class="hljs-keyword">install</span> <span class="hljs-keyword">de
 
 
 <li>
-
 <RouterLink to="/ltJava1" class="LFT-Item"> 
     Latihan Array
     </RouterLink>
 </li>
 
+
+<li>
+<RouterLink to="/qzJava" class="LFT-Item"> 
+    Quiz Java
+    </RouterLink>
+</li>
 
 </ul>
 

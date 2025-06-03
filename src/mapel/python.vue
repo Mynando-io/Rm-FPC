@@ -548,6 +548,13 @@ my_var = <span class="hljs-number">10</span>
     Latihan Python
     </RouterLink>
 </p>
+
+<p>
+<RouterLink to="/qzPython" class="LFT-Item"> 
+    Quiz Python
+    </RouterLink>
+</p>
+
 <h2 id="source">Source</h2>
 <ul>
 <li><a href="https://docs.python.org/3/tutorial/">https://docs.python.org/3/tutorial/</a></li>

@@ -339,6 +339,10 @@ fungsi(<span class="hljs-string">'budi'</span>)
     <RouterLink to="/ltRuby" class="LFT-Item"> 
     Latihan Ruby
     </RouterLink>
+
+    <RouterLink to="/qzSql" class="LFT-Item"> 
+    Quiz SQL
+    </RouterLink>
 </p>
 <h2 id="task">Task</h2>
 <h3 id="devops-tool-chain">Devops tool chain</h3>

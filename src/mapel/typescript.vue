@@ -196,6 +196,9 @@ console.<span class="hljs-built_in">log</span>(myDog.age) <span class="hljs-comm
 </ul>
 
 
+<RouterLink to="/qzTyp" class="LFT-Item"> 
+   Quiz TypeScript
+    </RouterLink>
 
 
 <!-- biarkan code dibawah ini -->
