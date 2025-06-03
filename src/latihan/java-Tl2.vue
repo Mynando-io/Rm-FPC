@@ -85,7 +85,7 @@ names[1] = &quot;Bobby&quot;; | Menimpa nilai pada index ke 1 menjadi &quot;Bobb
   System<span class="hljs-selector-class">.out</span><span class="hljs-selector-class">.println</span>(niali) 
 }
 </code></pre><h2 id="array-multidimensi-">Array multidimensi:</h2>
-<pre><code>int[][] matrix = {{<span class="hljs-number">1</span>, <span class="hljs-number">2</span>}, {<span class="hljs-number">3</span>, <span class="hljs-number">4</span>}};
+<pre><code>int[][] matrix = {//{<span class="hljs-number">1</span>, <span class="hljs-number">2</span>}, {<span class="hljs-number">3</span>, <span class="hljs-number">4</span>//}};
 </code></pre>
 
 

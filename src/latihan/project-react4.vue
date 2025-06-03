@@ -56,7 +56,7 @@
 
         <span class="hljs-keyword">if</span>(<span class="hljs-keyword">this</span>.state.emailError) { <span class="hljs-comment">// If statemen untuk notif</span>
             notif = (
-                &lt;div style={{color: <span class="hljs-string">'red'</span>}}&gt;
+                &lt;div style={//{color: <span class="hljs-string">'red'</span>//}}&gt;
                     Email harus Ada!
                 &lt;/div&gt;
             )

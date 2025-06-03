@@ -577,7 +577,7 @@ Todo List:
     Membuat Todo App
     </RouterLink>
 </li>
-&lt;!--- </li>
+
 <li><a href="./project-react/pokemonApi.md">PokemonApi</a>
 --&gt;</li>
 </ul>
