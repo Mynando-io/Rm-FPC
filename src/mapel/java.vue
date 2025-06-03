@@ -158,12 +158,35 @@ sudo apt <span class="hljs-keyword">install</span> <span class="hljs-keyword">de
 </span>            {14, 12, 42}  // Baris ketiga dari matriks<span class="hljs-built_in"> array
 </span>        }; // Inisialisasi<span class="hljs-built_in"> array </span>dua dimensi <span class="hljs-string">"arrayDua"</span> dengan nilai-nilai yang diberikan
 </code></pre>
+
 <h2 id="latihan-java">Latihan java</h2>
-<p><a href="../latihan-bahasa/latihan-java.md">latihan java</a></p>
+<p>
+
+<RouterLink to="/ltJava1" class="LFT-Item"> 
+    Latihan Java
+    </RouterLink>
+</p>
+
 <h2 id="topic-lanjutan">Topic lanjutan</h2>
 <ul>
-<li><a href="./fundamental-java.md">Fundamental</a></li>
-<li><a href="./array-java.md">Array</a></li>
+
+
+<li>
+<RouterLink to="/ltJava2" class="LFT-Item"> 
+    Latihan Fundamental
+    </RouterLink>
+
+</li>
+
+
+<li>
+
+<RouterLink to="/ltJava1" class="LFT-Item"> 
+    Latihan Array
+    </RouterLink>
+</li>
+
+
 </ul>
 
 

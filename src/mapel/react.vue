@@ -546,11 +546,37 @@ Todo List:
 </ul>
 <h2 id="contoh-project">Contoh project</h2>
 <ul>
-<li><a href="./project-react/add-component.md">Membuat button menambahkan element</a></li>
-<li><a href="./project-react/counter.md">Membuat konsep counter</a></li>
-<li><a href="./project-react/add-delete.md">membuat element muncul dan hilang</a></li>
-<li><a href="./project-react/form-react.md">Membuat Form Lengkap fiture</a></li>
-<li><a href="./project-react/todo.md">Todo app</a>
+<li>
+
+<RouterLink to="/ltReact1" class="LFT-Item"> 
+    Membuat button menambahkan element
+    </RouterLink>
+</li>
+
+<li>
+<RouterLink to="/ltReact2" class="LFT-Item"> 
+    Membuat konsep counter
+    </RouterLink>
+</li>
+
+
+<li>
+<RouterLink to="/ltReact3" class="LFT-Item"> 
+    Membuat Elemen Muncul dan hilang
+    </RouterLink>
+</li>
+
+<li>
+<RouterLink to="/ltReact4" class="LFT-Item"> 
+    Membuat form lengkapp
+    </RouterLink>
+</li>
+
+<li>
+<RouterLink to="/ltReact5" class="LFT-Item"> 
+    Membuat Todo App
+    </RouterLink>
+</li>
 &lt;!--- </li>
 <li><a href="./project-react/pokemonApi.md">PokemonApi</a>
 --&gt;</li>

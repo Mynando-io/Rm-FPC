@@ -68,6 +68,16 @@ import ltHTML6 from './latihan/lt-html6.vue'
 import ltHTML7 from './latihan/lt-html7.vue'
 import ltHTML8 from './latihan/lt-html8.vue'
 
+import javaTl1 from './latihan/java-Tl1.vue'
+import javaTl2 from './latihan/java-Tl2.vue'
+import javaTl3 from './latihan/java.vue'
+
+import pReact1 from './latihan/project-react1.vue'
+import pReact2 from './latihan/project-react2.vue'
+import pReact3 from './latihan/project-react3.vue'
+import pReact4 from './latihan/project-react4.vue'
+import pReact5 from './latihan/project-react5.vue'
+
 import ltPy from './latihan/python.vue'
 import ltR from './latihan/r.vue'
 import ltRuby from './latihan/ruby.vue'
@@ -121,6 +131,8 @@ const routes = [
   { path: '/react-note7', component: reactNote7},
   { path: '/react-note8', component: reactNote8},
 
+
+
   // ===================== HTMl Latihan 
   { path: '/latihan-html1', component: ltHTML1},
   { path: '/latihan-html2', component: ltHTML2},
@@ -136,6 +148,17 @@ const routes = [
   { path: '/ltRuby', component: ltRuby},
   { path: '/ltSql', component: ltSql},
   { path: '/ltVue', component: ltVue},
+
+
+  { path: '/ltJava1', component: javaTl1},
+  { path: '/ltJava2', component: javaTl2},
+  { path: '/ltJava3', component: javaTl3},
+
+  { path: '/ltReact1', component: pReact1},
+  { path: '/ltReact2', component: pReact2},
+  { path: '/ltReact3', component: pReact3},
+  { path: '/ltReact4', component: pReact4},
+  { path: '/ltReact5', component: pReact5},
 
   // ============================= Quiz =======================
 
