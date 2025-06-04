@@ -11,7 +11,7 @@
 
 <template>
 <!-- 0000000000000000000000000000000000000000000000000000000 Template Area start 0000000000000000000000000000000000000000-->
-<p><img src="../aset/02.png" alt="image02"></p>
+<p><img src="#" alt="image02"></p>
 <p>HTML ( HyperText Markup Language )  adalah suatu instruksi untuk menulis document agar bisa ditampilkan ke dalam web browser. web browser akan mengambil file HTML dari penyimpanan local dan akan diubah menjadi halaman website.</p>
 <p>Dalam Pembuatan website terdapat setidaknya 3 komponen Pembangun:</p>
 <ul>

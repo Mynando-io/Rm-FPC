@@ -67,7 +67,7 @@ Dengan menggunakan CSS Grid kita bisa membuat suatu sistem komplex dengan mudah.
             <span class="hljs-attribute">grid-column-end</span>: <span class="hljs-number">3</span>;
         }
 </code></pre><h2 id="pengaturan-luas-dan-jarak-dengan-grid">Pengaturan luas dan jarak dengan grid</h2>
-<p><img src="../aset/at-grid-01.jpg" alt="contoh aturan grid"></p>
+<p><img src="#" alt="contoh aturan grid"></p>
 <p>Didalam mengatur layout pada grid kita harus benar-benar memahami penempatan garis.
 Karena garis tersebut akan jadi nilai yang menjadi acuan sistem dalam mengatur layout.</p>
 <p>Sebagai contoh gambar diatas terdapat garis berwarna merah dan biru. Garis merah digunakan untuk melambangkan &quot;Baris / row&quot;, Sedangkan garis biru melambangkan &quot;Kolom / column&quot;.</p>
@@ -91,7 +91,7 @@ grid-column-<span class="hljs-keyword">end</span>: <span class="hljs-number">4</
 <span class="hljs-built_in">grid</span>-<span class="hljs-built_in">row</span>-end: <span class="hljs-number">5</span>;
 </code></pre><p>yang berfungsi untuk mengatur tingggi dari style element. Sebagai mana pada contoh tinggi element dimulai dari garis baris(row)(garis warna merah) ke 3 hingga row ke 5.</p>
 <p>Contoh grid Dengan pengaturan layout kolom dan baris.</p>
-<p><img src="../aset/ex-grid01.png" alt="contoh"></p>
+<p><img src="#" alt="contoh"></p>
 <h2 id="contoh-instruksi">Contoh instruksi</h2>
 <ol>
 <li>Buat fondasi HTML </li>

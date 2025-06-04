@@ -115,7 +115,7 @@ height = <span class="hljs-number">200</span> + <span class="hljs-number">10</sp
 </code></pre><p>Total width adalah 240 dan juga height nya. Ada cara jika kita ingin menghasilkan 200px tersebut adalah keseluruhan dari 
 width dan height, yaitu menambahkan property <code>box-sizing: border-box;</code>. <strong>border-sizing</strong> akan mengatur agar lebar atau tinggi dari element tersebut sesuai dengan ukuran width dan height yang sudah ada. </p>
 <p>Mari kita lihat ukuran total pada gambar sebelum box-sizing.</p>
-<p><img src="../aset/box-sizing-before.png" alt="Sebelum box sizing"></p>
+<p><img src="#" alt="Sebelum box sizing"></p>
 <p>Jika semisal Kita menambahkan property box sizing seperti code dibawah</p>
 <pre><code><span class="hljs-selector-tag">div</span><span class="hljs-selector-class">.main</span> {
         <span class="hljs-attribute">width</span>: <span class="hljs-number">200px</span>;
@@ -132,13 +132,13 @@ width dan height, yaitu menambahkan property <code>box-sizing: border-box;</code
 
 <span class="hljs-built_in">box</span>-sizing: <span class="hljs-built_in">content</span>-<span class="hljs-built_in">box</span>;
 </code></pre><p>hasilnya akan menjadi Seperti gambar dibawah. <code>box-sizing: border-box</code> akan membuat komputer mengatur secara otomatis pembagian dari width dan height untuk membuat hasil total tidak lebih dari yang sudah dideklarasi kan</p>
-<p><img src="../aset/box-sizing-after.png" alt="setelah boxsizing"></p>
+<p><img src="#" alt="setelah boxsizing"></p>
 <h2 id="css-float">CSS float</h2>
 <p>Untuk source code bisa dilihat disini: <a href="https://replit.com/@SayaManusia/CSS-Floats#index.html">https://replit.com/@SayaManusia/CSS-Floats#index.html</a></p>
 <p>Float adalah property css yang dapat membantu anda untuk mengatur agar element bisa bergerak secara horizontal.
 Float tidak hanya untuk mengatur arah gerak element, float akan membuat element disekitarnya bisa berada didalam area element float, tidak bergerak dibawah dari element float </p>
 <p>Seperti pada digambar dibawah ini. Kotak kecil berwana merah memiliki property float, tetpai kotak kuning besar tidak memiliki float. Maka kotak kuning besar akan berjalan dibawah kotak merah. </p>
-<p><img src="../aset/float test.png" alt="float test"></p>
+<p><img src="#" alt="float test"></p>
 <p>Ada tiga value float yang sering dipakai: </p>
 <ol>
 <li>right</li>
@@ -189,7 +189,7 @@ ini akan membantu untuk memindahkan element, dan mengatur jarak antar item. </p>
 
         <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span></span>
-</code></pre><p><img src="../aset/flexbox-kelompok.png" alt="flexbox kelompom"></p>
+</code></pre><p><img src="#" alt="flexbox kelompom"></p>
 <p>Flexbox juga dapat mengatur pergerakan elementdalam bidang  vertikal, dengan menggunakan property <code>align-items</code>.</p>
 <p>Beberapa value yang terdapat pada alig-items:</p>
 <ul>

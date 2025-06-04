@@ -9,7 +9,7 @@ const count = 'Saya komponen baru'
   <!-- Header Section -->
   <header class="wiki-header">
     <RouterLink to="/" class="wiki-logo">
-      <img src="./assets/FPC-ori.svg" alt="Logo title" height="auto" width="42">
+      <img src="#" alt="Logo title" height="auto" width="42">
       <h1>FPC <span class="subtitle">(Free Programming Course)</span></h1>
     </RouterLink>
     
