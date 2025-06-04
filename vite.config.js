@@ -1,7 +1,10 @@
-import { defineConfig } from 'vite'
-import vue from '@vitejs/plugin-vue'
+// Ini Komentar
+// vite.config.js
 
-// https://vite.dev/config/
+import { defineConfig } from 'vite';
+import vue from '@vitejs/plugin-vue';
+
 export default defineConfig({
   plugins: [vue()],
-})
+  base: "/",
+});dr
