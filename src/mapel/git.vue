@@ -144,7 +144,7 @@ Todo list
 
 <!-- biarkan code dibawah ini -->
 <nav>
-    <RouterLink to="/">Go to Home</RouterLink>
+    <RouterLink to="/qzGit">Git Quiz</RouterLink>
 </nav>
 <!-- 000000000000000000000000000000000000000000000000000000 Template area end  000000000000000000000000000000000000000000 -->
 </template>

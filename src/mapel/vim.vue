@@ -172,7 +172,7 @@ gv - reselect (select last selected block of text, from visual mode)
 
 <!-- biarkan code dibawah ini -->
 <nav>
-    <RouterLink to="/">Go to Home</RouterLink>
+    <RouterLink to="/qzVim">Vim Quiz</RouterLink>
 </nav>
 <!-- 000000000000000000000000000000000000000000000000000000 Template area end  000000000000000000000000000000000000000000 -->
 </template>

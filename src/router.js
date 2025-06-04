@@ -26,6 +26,7 @@ import mpSql from './mapel/sql.vue' // sql
 import mpTs from './mapel/typescript.vue' // typescript
 import mpVue from './mapel/vuejs.vue' // vue
 import mpVim from './mapel/vim.vue' // vim
+import mpLatex from './mapel/LaTex.vue'
 
 
 // ===================== Quiz ====================
@@ -38,7 +39,7 @@ import qzVim from './Quiz/vim.vue'
 import qzJava from './Quiz/java.vue'
 import qzJavascript from './Quiz/javascript.vue'
 import qzLatex from './Quiz/latex.vue'
-import qzPython from './Quiz/latex.vue'
+import qzPython from './Quiz/python.vue'
 import qzR from './Quiz/r.vue'
 import qzReact from './Quiz/react.vue'
 import qzReactExpo from './Quiz/reactexpo.vue'
@@ -123,6 +124,7 @@ const routes = [
   { path: '/typescript', component: mpTs }, // git
   { path: '/vue', component: mpVue }, // git
   { path: '/vim', component: mpVim }, // git
+  { path: '/mpLatex', component: mpLatex},
 
   // ====================== Latihan ======================
 

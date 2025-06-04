@@ -4,8 +4,6 @@ import './main.js'
 import README from './components/README.vue'
 
 
-const count = 'Saya komponen baru'
-
 
 
 </script>
@@ -74,6 +72,9 @@ const count = 'Saya komponen baru'
         <li class="nav-item">
           <RouterLink to="/sql" class="LFT-Item"> <span class="icon">🔄</span> SQL Course</RouterLink>
         </li>
+        <li class="nav-item">
+          <RouterLink to="/mpLatex" class="LFT-Item"> <span class="icon">🔄</span> Latex Course</RouterLink>
+        </li>
 
 
       </ul>
@@ -131,8 +132,8 @@ const count = 'Saya komponen baru'
 
   <RouterLink to="/typescript" class="LFT-Item"> <span class="icon">🔄</span> Typescript Course</RouterLink>
 
+   <RouterLink to="/mpLatex" class="LFT-Item"> <span class="icon">🔄</span> Latex Course</RouterLink>
 
-  <RouterLink to="/quiz">Quiz Course</RouterLink>
 </nav>
 
 

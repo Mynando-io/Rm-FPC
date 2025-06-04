@@ -273,7 +273,7 @@ Referensi: <a href="https://www.w3schools.com/css/css3_transitions.asp">https://
 
 <!-- biarkan code dibawah ini -->
 <nav>
-    <RouterLink to="/">Go to Home</RouterLink>
+    <RouterLink to="/qzCss">CSS Quiz</RouterLink>
 </nav>
 <!-- 000000000000000000000000000000000000000000000000000000 Template area end  000000000000000000000000000000000000000000 -->
 </template>

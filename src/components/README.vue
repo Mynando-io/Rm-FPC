@@ -60,6 +60,9 @@ jika kita belajar untuk membuat website. meskipun tidak untuk dijual tapi untuk 
 <li>
   <RouterLink to="/vim">Vim Course</RouterLink>
 </li>
+<li>
+  <RouterLink to="/mpLatex">Latex Course</RouterLink>
+</li>
 </ul>
 <h1 id="pengenalan-pembelajaran">Pengenalan Pembelajaran</h1>
 <p>Mempelajari materi dengan bertahap adalah kunci untuk memahami.</p>

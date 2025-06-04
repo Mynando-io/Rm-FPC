@@ -915,6 +915,11 @@ value mereka sama. </p>
     Latihan SQL
     </RouterLink>
 </p>
+<p>
+    <RouterLink to="/qzSql" class="LFT-Item"> 
+    Quiz SQL
+    </RouterLink>
+</p>
 <h2 id="pranala-menarik">Pranala menarik</h2>
 <ul>
 <li><a href="https://dev.mysql.com/doc/refman/8.0/en/alter-table.html">https://dev.mysql.com/doc/refman/8.0/en/alter-table.html</a></li>
